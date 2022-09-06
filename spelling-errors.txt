@@ -4,8 +4,7 @@ aliquip
 amet
 anim
 aute
-Chamapaign
-Chirayu
+chirayu
 cillum
 commodo
 consectetur
@@ -27,7 +26,6 @@ ipsum
 irure
 janeroe
 johndoe
-Kothari
 labore
 laboris
 laborum
@@ -50,7 +48,6 @@ sint
 sunt
 tempor
 ullamco
-Urbana
 velit
 veniam
 voluptate

@@ -1,6 +1,6 @@
 {
   "pandoc": {
-    "title": "CEE 492 Data Science Projecc- Team Rocket Pokemon",
+    "title": "Manuscript Title",
     "keywords": [
       "markdown",
       "publishing",
@@ -9,10 +9,10 @@
     "lang": "en-US",
     "date-meta": "2022-09-06",
     "author-meta": [
-      "Chirayu Kothari",
+      "John Doe",
       "Jesus Castro"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"CEE 492 Data Science Projecc- Team Rocket Pokemon\" />\n<meta name=\"citation_title\" content=\"CEE 492 Data Science Projecc- Team Rocket Pokemon\" />\n<meta property=\"og:title\" content=\"CEE 492 Data Science Projecc- Team Rocket Pokemon\" />\n<meta property=\"twitter:title\" content=\"CEE 492 Data Science Projecc- Team Rocket Pokemon\" />\n<meta name=\"dc.date\" content=\"2022-09-06\" />\n<meta name=\"citation_publication_date\" content=\"2022-09-06\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Chirayu Kothari\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil Engineering, University of Illinois at Urbana Chamapaign\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@chirayu1998\" />\n<meta name=\"citation_author\" content=\"Jesus Castro\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2208b8496b5933d521963dccf21f9eb71149865e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2208b8496b5933d521963dccf21f9eb71149865e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2208b8496b5933d521963dccf21f9eb71149865e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2022-09-06\" />\n<meta name=\"citation_publication_date\" content=\"2022-09-06\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@chirayu1998\" />\n<meta name=\"citation_author\" content=\"Jesus Castro\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -26,13 +26,13 @@
     "authors": [
       {
         "github": "johndoe",
-        "name": "Chirayu Kothari",
-        "initials": "CK",
+        "name": "John Doe",
+        "initials": "JD",
         "orcid": "XXXX-XXXX-XXXX-XXXX",
         "twitter": "chirayu1998",
         "email": "chirayu4@illinois.edu",
         "affiliations": [
-          "Department of Civil Engineering, University of Illinois at Urbana Chamapaign"
+          "Department of Something, University of Whatever"
         ],
         "funders": [
           "Grant XXXXXXXX"
@@ -52,23 +52,19 @@
           "Department of Whatever, University of Something"
         ],
         "affiliation_numbers": [
-          2,
-          3
+          1,
+          2
         ]
       }
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Civil Engineering, University of Illinois at Urbana Chamapaign",
+        "affiliation": "Department of Something, University of Whatever",
         "affiliation_number": 1
       },
       {
-        "affiliation": "Department of Something, University of Whatever",
-        "affiliation_number": 2
-      },
-      {
         "affiliation": "Department of Whatever, University of Something",
-        "affiliation_number": 3
+        "affiliation_number": 2
       }
     ],
     "ci_source": {
@@ -76,19 +72,19 @@
       "repo_slug": "uiceds/cee-492-term-project-fall-2022-team-rocket",
       "repo_owner": "uiceds",
       "repo_name": "cee-492-term-project-fall-2022-team-rocket",
-      "commit": "2208b8496b5933d521963dccf21f9eb71149865e",
-      "triggering_commit": "2208b8496b5933d521963dccf21f9eb71149865e",
-      "build_url": "https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/commit/2208b8496b5933d521963dccf21f9eb71149865e/checks",
+      "commit": "499b1e02d7cd8e6521595ca6b0ab30885fcb8f85",
+      "triggering_commit": "499b1e02d7cd8e6521595ca6b0ab30885fcb8f85",
+      "build_url": "https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/commit/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/checks",
       "job_url": "https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/runs/__run_3"
     },
     "html_url": "https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/",
     "pdf_url": "https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf",
-    "html_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2208b8496b5933d521963dccf21f9eb71149865e/",
-    "pdf_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2208b8496b5933d521963dccf21f9eb71149865e/manuscript.pdf",
+    "html_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/",
+    "pdf_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/manuscript.pdf",
     "manubot_version": "0.5.1",
     "rootstock_commit": null,
     "manuscript_stats": {
-      "word_count": 1408
+      "word_count": 1416
     }
   }
 }
