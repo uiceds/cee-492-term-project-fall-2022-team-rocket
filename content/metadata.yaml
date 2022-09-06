@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "CEE 492 Data Science Projecc- Team Rocket Pokemon"
 keywords:
   - markdown
   - publishing
@@ -7,13 +7,13 @@ keywords:
 lang: en-US
 authors:
   - github: johndoe
-    name: John Doe
-    initials: JD
+    name: Chirayu Kothari
+    initials: CK
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    twitter: chirayu1998
+    email: chirayu4@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - Department of Civil Engineering, University of Illinois at Urbana Chamapaign
     funders:
       - Grant XXXXXXXX
   - github: janeroe
