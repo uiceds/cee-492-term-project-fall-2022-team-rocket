@@ -1,24 +1,24 @@
 ---
-title: "CEE 492 - Team Rocket Project"
+title: "Manuscript Title"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: jcastr54
-    name: Jesús Castro
-    initials: JC
+  - github: johndoe
+    name: John Doe
+    initials: JD
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: 
-    email: jcastr54@illinois.edu
+    twitter: chirayu1998
+    email: chirayu4@illinois.edu
     affiliations:
-      - Civil & Environmental Engineering Department, University of Illinois Urbana-Champaign
+      - Department of Something, University of Whatever
     funders:
       - Grant XXXXXXXX
   - github: janeroe
-    name: Jane Roe
-    initials: JR
+    name: Jesus Castro
+    initials: JC
     orcid: XXXX-XXXX-XXXX-XXXX
     email: jane.roe@whatever.edu
     affiliations:
