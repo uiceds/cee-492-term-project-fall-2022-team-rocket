@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: Preliminary Title
 keywords:
 - markdown
 - publishing
@@ -7,7 +7,7 @@ keywords:
 lang: en-US
 date-meta: '2022-09-06'
 author-meta:
-- John Doe
+- Ishfaq Aziz
 - Jesus Castro
 header-includes: |-
   <!--
@@ -15,10 +15,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Preliminary Title" />
+  <meta name="citation_title" content="Preliminary Title" />
+  <meta property="og:title" content="Preliminary Title" />
+  <meta property="twitter:title" content="Preliminary Title" />
   <meta name="dc.date" content="2022-09-06" />
   <meta name="citation_publication_date" content="2022-09-06" />
   <meta name="dc.language" content="en-US" />
@@ -27,10 +27,10 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author" content="Ishfaq Aziz" />
+  <meta name="citation_author_institution" content="CEE, UIUC" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@chirayu1998" />
+  <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Jesus Castro" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e846c4bd16508f0e849c557457449969c8187b24/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e846c4bd16508f0e849c557457449969c8187b24/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e846c4bd16508f0e849c557457449969c8187b24/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e846c4bd16508f0e849c557457449969c8187b24/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-team-rocket@499b1e0](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/499b1e02d7cd8e6521595ca6b0ab30885fcb8f85)
+from [uiceds/cee-492-term-project-fall-2022-team-rocket@e846c4b](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/e846c4bd16508f0e849c557457449969c8187b24)
 on September 6, 2022.
 </em></small>
 
@@ -75,15 +75,15 @@ on September 6, 2022.
 
 
 
-+ **John Doe**<br>
++ **Ishfaq Aziz**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [johndoe](https://github.com/johndoe)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [chirayu1998](https://twitter.com/chirayu1998)<br>
+    [johndoe](https://twitter.com/johndoe)<br>
   <small>
-     Department of Something, University of Whatever
+     CEE, UIUC
      · Funded by Grant XXXXXXXX
   </small>
 
@@ -102,7 +102,11 @@ on September 6, 2022.
 
 This is the abstract.
 
+<<<<<<< HEAD
+Abstract is written here
+=======
 This is the abstract.
+>>>>>>> 499b1e02d7cd8e6521595ca6b0ab30885fcb8f85
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
