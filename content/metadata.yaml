@@ -1,11 +1,16 @@
 ---
+<<<<<<< HEAD
 title: "TEAM ROCKET POKEMON PROJECT"
+=======
+title: "CEE 492 Data Science Projecc- Team Rocket Pokemon"
+>>>>>>> 2208b8496b5933d521963dccf21f9eb71149865e
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
+<<<<<<< HEAD
   - github: oaa4
     name: Omar Abdelrahman
     initials: OA
@@ -14,11 +19,21 @@ authors:
     email: oaa4@illinois.edu
     affiliations:
       - Department of Civil Engineering, University of Illinois at Urbana-Champaign
+=======
+  - github: johndoe
+    name: Chirayu Kothari
+    initials: CK
+    orcid: XXXX-XXXX-XXXX-XXXX
+    twitter: chirayu1998
+    email: chirayu4@illinois.edu
+    affiliations:
+      - Department of Civil Engineering, University of Illinois at Urbana Chamapaign
+>>>>>>> 2208b8496b5933d521963dccf21f9eb71149865e
     funders:
       - Grant XXXXXXXX
   - github: janeroe
-    name: Jane Roe
-    initials: JR
+    name: Jesus Castro
+    initials: JC
     orcid: XXXX-XXXX-XXXX-XXXX
     email: jane.roe@whatever.edu
     affiliations:
