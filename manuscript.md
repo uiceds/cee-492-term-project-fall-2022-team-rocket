@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: CEE 492 Data Science Projecc- Team Rocket Pokemon
 keywords:
 - markdown
 - publishing
@@ -7,7 +7,7 @@ keywords:
 lang: en-US
 date-meta: '2022-09-06'
 author-meta:
-- John Doe
+- Chirayu Kothari
 - Jane Roe
 header-includes: |-
   <!--
@@ -15,10 +15,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="CEE 492 Data Science Projecc- Team Rocket Pokemon" />
+  <meta name="citation_title" content="CEE 492 Data Science Projecc- Team Rocket Pokemon" />
+  <meta property="og:title" content="CEE 492 Data Science Projecc- Team Rocket Pokemon" />
+  <meta property="twitter:title" content="CEE 492 Data Science Projecc- Team Rocket Pokemon" />
   <meta name="dc.date" content="2022-09-06" />
   <meta name="citation_publication_date" content="2022-09-06" />
   <meta name="dc.language" content="en-US" />
@@ -27,10 +27,10 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author" content="Chirayu Kothari" />
+  <meta name="citation_author_institution" content="Department of Civil Engineering, University of Illinois at Urbana Chamapaign" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="twitter:creator" content="@chirayu1998" />
   <meta name="citation_author" content="Jane Roe" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/bc0704b4762908730fffbab05cefc3372b3e57fe/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/bc0704b4762908730fffbab05cefc3372b3e57fe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/bc0704b4762908730fffbab05cefc3372b3e57fe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9e3182974b5527ddb529f21fc19fdcf4f380436b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9e3182974b5527ddb529f21fc19fdcf4f380436b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9e3182974b5527ddb529f21fc19fdcf4f380436b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/bc0704b4762908730fffbab05cefc3372b3e57fe/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9e3182974b5527ddb529f21fc19fdcf4f380436b/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-team-rocket@bc0704b](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/bc0704b4762908730fffbab05cefc3372b3e57fe)
+from [uiceds/cee-492-term-project-fall-2022-team-rocket@9e31829](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/9e3182974b5527ddb529f21fc19fdcf4f380436b)
 on September 6, 2022.
 </em></small>
 
@@ -75,15 +75,15 @@ on September 6, 2022.
 
 
 
-+ **John Doe**<br>
++ **Chirayu Kothari**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [johndoe](https://github.com/johndoe)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [chirayu1998](https://twitter.com/chirayu1998)<br>
   <small>
-     Department of Something, University of Whatever
+     Department of Civil Engineering, University of Illinois at Urbana Chamapaign
      · Funded by Grant XXXXXXXX
   </small>
 
@@ -100,7 +100,7 @@ on September 6, 2022.
 
 ## Abstract {.page_break_before}
 
-
+This is the abstract.
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
