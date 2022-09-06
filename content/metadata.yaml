@@ -1,19 +1,19 @@
 ---
-title: "Manuscript Title"
+title: "TEAM ROCKET POKEMON PROJECT"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
+  - github: oaa4
+    name: Omar Abdelrahman
+    initials: OA
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: johndoe
-    email: john.doe@something.com
+    email: oaa4@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - Department of Civil Engineering, University of Illinois at Urbana-Champaign
     funders:
       - Grant XXXXXXXX
   - github: janeroe
