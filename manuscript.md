@@ -8,7 +8,7 @@ lang: en-US
 date-meta: '2022-09-06'
 author-meta:
 - Chirayu Kothari
-- Jane Roe
+- Jesus Castro
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,7 +31,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Civil Engineering, University of Illinois at Urbana Chamapaign" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@chirayu1998" />
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author" content="Jesus Castro" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9e3182974b5527ddb529f21fc19fdcf4f380436b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9e3182974b5527ddb529f21fc19fdcf4f380436b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9e3182974b5527ddb529f21fc19fdcf4f380436b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2208b8496b5933d521963dccf21f9eb71149865e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2208b8496b5933d521963dccf21f9eb71149865e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2208b8496b5933d521963dccf21f9eb71149865e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9e3182974b5527ddb529f21fc19fdcf4f380436b/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2208b8496b5933d521963dccf21f9eb71149865e/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-team-rocket@9e31829](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/9e3182974b5527ddb529f21fc19fdcf4f380436b)
+from [uiceds/cee-492-term-project-fall-2022-team-rocket@2208b84](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/2208b8496b5933d521963dccf21f9eb71149865e)
 on September 6, 2022.
 </em></small>
 
@@ -87,7 +87,7 @@ on September 6, 2022.
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Jane Roe**<br>
++ **Jesus Castro**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
