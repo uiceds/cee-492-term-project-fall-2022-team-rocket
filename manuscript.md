@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-06'
+date-meta: '2022-09-21'
 author-meta:
 - Ishfaq Aziz
 - Jesus Castro
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Preliminary Title" />
   <meta property="og:title" content="Preliminary Title" />
   <meta property="twitter:title" content="Preliminary Title" />
-  <meta name="dc.date" content="2022-09-06" />
-  <meta name="citation_publication_date" content="2022-09-06" />
+  <meta name="dc.date" content="2022-09-21" />
+  <meta name="citation_publication_date" content="2022-09-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e846c4bd16508f0e849c557457449969c8187b24/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e846c4bd16508f0e849c557457449969c8187b24/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e846c4bd16508f0e849c557457449969c8187b24/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e846c4bd16508f0e849c557457449969c8187b24/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-team-rocket@e846c4b](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/e846c4bd16508f0e849c557457449969c8187b24)
-on September 6, 2022.
+from [uiceds/cee-492-term-project-fall-2022-team-rocket@baf45d0](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92)
+on September 21, 2022.
 </em></small>
 
 ## Authors
