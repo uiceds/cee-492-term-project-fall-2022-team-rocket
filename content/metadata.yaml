@@ -16,11 +16,10 @@ authors:
       - CEE, UIUC
     funders:
       - Grant XXXXXXXX
-  - github: janeroe
+  - github: jcastr54
     name: Jesus Castro
     initials: JC
     orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    email: jcastr54@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - CEE, UIUC
