@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e198075ab89fc5e7dc06a0e495f13c71a0d3e543/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e198075ab89fc5e7dc06a0e495f13c71a0d3e543/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e198075ab89fc5e7dc06a0e495f13c71a0d3e543/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6186b74e9c56b624a30416bb84a01b609289480/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6186b74e9c56b624a30416bb84a01b609289480/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6186b74e9c56b624a30416bb84a01b609289480/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e198075ab89fc5e7dc06a0e495f13c71a0d3e543/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6186b74e9c56b624a30416bb84a01b609289480/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-team-rocket@e198075](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/e198075ab89fc5e7dc06a0e495f13c71a0d3e543)
+from [uiceds/cee-492-term-project-fall-2022-team-rocket@e6186b7](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/e6186b74e9c56b624a30416bb84a01b609289480)
 on September 23, 2022.
 </em></small>
 
