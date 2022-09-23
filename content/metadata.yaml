@@ -12,19 +12,16 @@ authors:
   - github: jcastr54
     name: Jesus Castro
     initials: JC
-    orcid: 312-508-2526
+    orcid: 0000-0002-7684-7422
     email: jcastr54@illinois.edu
-    affiliations:
-      - CEE, UIUC
   - github: ck0103
     name: Chirayu Kothari
     initials: CK
     orcid: 0000-0003-4468-1138
     email: chirayu4@illinois.edu
-  - github: Omar
-    name: Omar
-    initials: O
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: chirayu4@illinois.edu
-    affiliations:
-      - CEE, UIUC
+  - github: oaa4
+    name: Omar Abdelrahman
+    initials: OA
+    orcid: 0000-0003-0618-8481
+    email: oaa4@illinois.edu
+    
