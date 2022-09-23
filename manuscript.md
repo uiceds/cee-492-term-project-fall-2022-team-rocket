@@ -40,9 +40,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,9 +64,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-team-rocket@3361b4c](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a)
+from [uiceds/cee-492-term-project-fall-2022-team-rocket@f9ef2ca](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543)
 on September 23, 2022.
 </em></small>
 
@@ -99,7 +99,8 @@ on September 23, 2022.
 
 ## Abstract {.page_break_before}
 
-This is the abstract.
+This is the abstract. 
+This dataset consists of a collection of Ground Penetrating Radar timeseries data. 
 
 <<<<<<< HEAD
 Abstract is written here
