@@ -1,11 +1,13 @@
 Aziz
 CEE
+chirayu
 dataset
-delamination
+Delamination
 GPR
 Ishfaq
 jcastr
 johndoe
+Kothari
 NDE
 radargram
 rebars
