@@ -10,7 +10,7 @@ author-meta:
 - Ishfaq Aziz
 - Jesus Castro
 - Chirayu Kothari
-- Omar
+- Omar Abdelrahman
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,22 +31,20 @@ header-includes: |-
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Ishfaq Aziz" />
   <meta name="citation_author" content="Jesus Castro" />
-  <meta name="citation_author_institution" content="CEE, UIUC" />
-  <meta name="citation_author_orcid" content="312-508-2526" />
+  <meta name="citation_author_orcid" content="0000-0002-7684-7422" />
   <meta name="citation_author" content="Chirayu Kothari" />
   <meta name="citation_author_orcid" content="0000-0003-4468-1138" />
-  <meta name="citation_author" content="Omar" />
-  <meta name="citation_author_institution" content="CEE, UIUC" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Omar Abdelrahman" />
+  <meta name="citation_author_orcid" content="0000-0003-0618-8481" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta property="twitter:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/d162f21b8d31028df1c7f485e035cc0ffd46cbe7/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/d162f21b8d31028df1c7f485e035cc0ffd46cbe7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/d162f21b8d31028df1c7f485e035cc0ffd46cbe7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6e4675cf3ce14ae0a3169e40f8021b2b22e6f730/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6e4675cf3ce14ae0a3169e40f8021b2b22e6f730/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6e4675cf3ce14ae0a3169e40f8021b2b22e6f730/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,11 +76,10 @@ manubot-clear-requests-cache: false
 
 + **Jesus Castro**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [312-508-2526](https://orcid.org/312-508-2526)
+    [0000-0002-7684-7422](https://orcid.org/0000-0002-7684-7422)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [jcastr54](https://github.com/jcastr54)<br>
   <small>
-     CEE, UIUC
   </small>
 
 + **Chirayu Kothari**<br>
@@ -93,13 +90,12 @@ manubot-clear-requests-cache: false
   <small>
   </small>
 
-+ **Omar**<br>
++ **Omar Abdelrahman**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-0618-8481](https://orcid.org/0000-0003-0618-8481)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [Omar](https://github.com/Omar)<br>
+    [oaa4](https://github.com/oaa4)<br>
   <small>
-     CEE, UIUC
   </small>
 
 
