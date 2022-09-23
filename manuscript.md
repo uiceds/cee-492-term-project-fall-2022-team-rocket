@@ -1,5 +1,5 @@
 ---
-title: Preliminary Title
+title: Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model
 keywords:
 - markdown
 - publishing
@@ -9,16 +9,17 @@ date-meta: '2022-09-23'
 author-meta:
 - Ishfaq Aziz
 - Jesus Castro
+- Jesus Castro
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Preliminary Title" />
-  <meta name="citation_title" content="Preliminary Title" />
-  <meta property="og:title" content="Preliminary Title" />
-  <meta property="twitter:title" content="Preliminary Title" />
+  <meta name="dc.title" content="Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model" />
+  <meta name="citation_title" content="Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model" />
+  <meta property="og:title" content="Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model" />
+  <meta property="twitter:title" content="Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model" />
   <meta name="dc.date" content="2022-09-23" />
   <meta name="citation_publication_date" content="2022-09-23" />
   <meta name="dc.language" content="en-US" />
@@ -34,15 +35,18 @@ header-includes: |-
   <meta name="citation_author" content="Jesus Castro" />
   <meta name="citation_author_institution" content="CEE, UIUC" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Jesus Castro" />
+  <meta name="citation_author_institution" content="CEE, UIUC" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta property="twitter:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e198075ab89fc5e7dc06a0e495f13c71a0d3e543/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e198075ab89fc5e7dc06a0e495f13c71a0d3e543/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e198075ab89fc5e7dc06a0e495f13c71a0d3e543/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e198075ab89fc5e7dc06a0e495f13c71a0d3e543/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-team-rocket@f9ef2ca](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/f9ef2ca5a3ae58614c332a5a1135ab79db8ca543)
+from [uiceds/cee-492-term-project-fall-2022-team-rocket@e198075](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/e198075ab89fc5e7dc06a0e495f13c71a0d3e543)
 on September 23, 2022.
 </em></small>
 
@@ -83,7 +87,7 @@ on September 23, 2022.
     [johndoe](https://twitter.com/johndoe)<br>
   <small>
      CEE, UIUC
-     · Funded by Grant XXXXXXXX
+     · Funded by None
   </small>
 
 + **Jesus Castro**<br>
@@ -95,12 +99,25 @@ on September 23, 2022.
      CEE, UIUC
   </small>
 
++ **Jesus Castro**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [chirayu4](https://github.com/chirayu4)<br>
+  <small>
+     CEE, UIUC
+  </small>
+
 
 
 ## Abstract {.page_break_before}
 
+<<<<<<< HEAD
+Abstract starts here.  Trial of modification starts here.
+=======
 This is the abstract. 
 This dataset consists of a collection of Ground Penetrating Radar timeseries data. 
+>>>>>>> f9ef2ca5a3ae58614c332a5a1135ab79db8ca543
 
 <<<<<<< HEAD
 Abstract is written here
