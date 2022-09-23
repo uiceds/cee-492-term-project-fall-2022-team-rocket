@@ -1,5 +1,5 @@
 ---
-title: "Preliminary Title"
+title: "Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning Model"
 keywords:
   - markdown
   - publishing
@@ -10,7 +10,7 @@ authors:
     name: Ishfaq Aziz
     initials: IA
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
+    twitter: 
     email: john.doe@something.com
     affiliations:
       - CEE, UIUC
