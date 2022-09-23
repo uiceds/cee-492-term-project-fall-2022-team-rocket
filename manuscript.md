@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-21'
+date-meta: '2022-09-23'
 author-meta:
 - Ishfaq Aziz
 - Jesus Castro
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Preliminary Title" />
   <meta property="og:title" content="Preliminary Title" />
   <meta property="twitter:title" content="Preliminary Title" />
-  <meta name="dc.date" content="2022-09-21" />
-  <meta name="citation_publication_date" content="2022-09-21" />
+  <meta name="dc.date" content="2022-09-23" />
+  <meta name="citation_publication_date" content="2022-09-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -32,8 +32,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Jesus Castro" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author_institution" content="CEE, UIUC" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
@@ -41,9 +40,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +64,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-team-rocket@baf45d0](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/baf45d0ae8a0d0b0fa01d5ee67a457a6a3526c92)
-on September 21, 2022.
+from [uiceds/cee-492-term-project-fall-2022-team-rocket@3361b4c](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/3361b4c4d32b0656fda46907e4e6d16fda3c7c5a)
+on September 23, 2022.
 </em></small>
 
 ## Authors
@@ -91,9 +90,9 @@ on September 21, 2022.
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [jcastr54](https://github.com/jcastr54)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     CEE, UIUC
   </small>
 
 
@@ -406,6 +405,7 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 
 
 This is the introduction.
+Introduction provides information for readers that are not fully familiar with the project topic.
 
 
 ## References {.page_break_before}
