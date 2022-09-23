@@ -17,7 +17,6 @@ content/02.Plan.md:5:delamination
 content/02.Plan.md:5:GPR
 content/02.Plan.md:5:radargram
 content/02.Plan.md:5:rebars
-content/02.Plan.md:9:cee
 content/02.Plan.md:11:delamination
 content/02.Plan.md:11:delamination
 content/02.Plan.md:11:delamination
