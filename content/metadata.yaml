@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning Model"
+=======
+title: "Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model"
+>>>>>>> 0c0d40eadfa91f444e41b63a8e82c3818dbf6aa1
 keywords:
   - markdown
   - publishing
@@ -15,12 +19,30 @@ authors:
     affiliations:
       - CEE, UIUC
     funders:
-      - Grant XXXXXXXX
-  - github: janeroe
+      - None
+  - github: jcastr54
     name: Jesus Castro
     initials: JC
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    orcid: 312-508-2526
+    email: jcastr54@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - CEE, UIUC
+<<<<<<< HEAD
+  - github: chirayu4
+    name: Chirayu
+    initials: CK
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: chirary4@illinois.edu
+    affiliations:
+      - CEE, UIUC  
+   - github: 
+    name: Omar
+    initials: O
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: oaa4@illinois.edu
+    affiliations:
+      - CEE, UIUC
+
+=======
+>>>>>>> 7f92a2ec119ce4cc52d2554ef40d173229c7b372
+
