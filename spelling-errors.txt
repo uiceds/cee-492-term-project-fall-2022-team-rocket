@@ -1,9 +1,11 @@
 Aziz
 CEE
-chirayu
-dataset
+Chirayu
+Dataset
 Delamination
+Dorafshan
 GPR
+Ichi
 Ishfaq
 jcastr
 johndoe
@@ -11,7 +13,10 @@ Kothari
 NDE
 radargram
 rebars
+Scheers
+SDNET
 UIUC
+Wideband
 xlsx
 XXXX
 XXXXXXXX
