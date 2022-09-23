@@ -1,26 +1,41 @@
 ---
-title: "CEE 492 Data Science Projecc- Team Rocket Pokemon"
+title: "Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: ck0103
-    name: Chirayu Kothari
-    initials: CK
+  - github: johndoe
+    name: Ishfaq Aziz
+    initials: IA
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: chirayu1998
-    email: chirayu4@illinois.edu
+    twitter: johndoe
+    email: john.doe@something.com
     affiliations:
-      - Department of Civil Engineering, University of Illinois at Urbana Chamapaign
+      - CEE, UIUC
     funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+      - None
+  - github: jcastr54
+    name: Jesus Castro
+    initials: JC
+    orcid: 312-508-2526
+    email: jcastr54@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - CEE, UIUC
+  - github: chirayu4
+    name: Chirayu
+    initials: 
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: chirary4@illinois.edu
+    affiliations:
+      - CEE, UIUC  
+   - github: 
+    name: Omar
+    initials: 
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: oaa4@illinois.edu
+    affiliations:
+      - CEE, UIUC
+
+
