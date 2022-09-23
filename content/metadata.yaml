@@ -1,5 +1,5 @@
 ---
-title: "Preliminary Title"
+title: "Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model"
 keywords:
   - markdown
   - publishing
@@ -15,7 +15,7 @@ authors:
     affiliations:
       - CEE, UIUC
     funders:
-      - Grant XXXXXXXX
+      - None
   - github: jcastr54
     name: Jesus Castro
     initials: JC
@@ -23,3 +23,12 @@ authors:
     email: jcastr54@illinois.edu
     affiliations:
       - CEE, UIUC
+  - github: chirayu4
+    name: Jesus Castro
+    initials: JC
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: jcastr54@illinois.edu
+    affiliations:
+      - CEE, UIUC
+
+
