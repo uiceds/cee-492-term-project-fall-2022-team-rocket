@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
+title: "Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning Model"
+=======
 title: "Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model"
+>>>>>>> 0c0d40eadfa91f444e41b63a8e82c3818dbf6aa1
 keywords:
   - markdown
   - publishing
@@ -10,7 +14,7 @@ authors:
     name: Ishfaq Aziz
     initials: IA
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
+    twitter: 
     email: john.doe@something.com
   - github: XXXX
     name: Omar
@@ -23,9 +27,30 @@ authors:
     initials: JC
     orcid: 312-508-2526
     email: jcastr54@illinois.edu
+<<<<<<< HEAD
   - github: Chirayu4
     name: Chirayu
     initials: C
     orcid: XXXXXXXX
     email: jcastr54@illinois.edu
    
+=======
+    affiliations:
+      - CEE, UIUC
+  - github: chirayu4
+    name: Chirayu
+    initials: CK
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: chirary4@illinois.edu
+    affiliations:
+      - CEE, UIUC  
+   - github: 
+    name: Omar
+    initials: O
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: oaa4@illinois.edu
+    affiliations:
+      - CEE, UIUC
+
+
+>>>>>>> c19e95d06fc93a9e79535c208a7b088e81a531ee
