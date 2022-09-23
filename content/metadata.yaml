@@ -12,20 +12,20 @@ authors:
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: johndoe
     email: john.doe@something.com
-    affiliations:
-      - CEE, UIUC
   - github: XXXX
     name: Omar
     initials: O
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: XXXXX
     email: XXX
-    affiliations:
-      - CEE, UIUC
   - github: jcastr54
     name: Jesus Castro
     initials: JC
     orcid: 312-508-2526
     email: jcastr54@illinois.edu
-    affiliations:
-      - CEE, UIUC
+  - github: Chirayu4
+    name: Chirayu
+    initials: C
+    orcid: XXXXXXXX
+    email: jcastr54@illinois.edu
+   
