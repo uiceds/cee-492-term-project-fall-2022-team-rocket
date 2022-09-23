@@ -1,8 +1,8 @@
 Aziz
 CEE
-Chirayu
+chirayu
 Dataset
-Delamination
+delamination
 Dorafshan
 GPR
 Ichi
