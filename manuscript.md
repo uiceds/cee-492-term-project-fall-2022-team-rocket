@@ -1,5 +1,5 @@
 ---
-title: Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model
+title: Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning Model
 keywords:
 - markdown
 - publishing
@@ -15,10 +15,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model" />
-  <meta name="citation_title" content="Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model" />
-  <meta property="og:title" content="Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model" />
-  <meta property="twitter:title" content="Predicting Delamination Condition of Concrete Bridge Decks via Machine Learning Model" />
+  <meta name="dc.title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning Model" />
+  <meta name="citation_title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning Model" />
+  <meta property="og:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning Model" />
+  <meta property="twitter:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning Model" />
   <meta name="dc.date" content="2022-09-23" />
   <meta name="citation_publication_date" content="2022-09-23" />
   <meta name="dc.language" content="en-US" />
@@ -33,16 +33,16 @@ header-includes: |-
   <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Jesus Castro" />
   <meta name="citation_author_institution" content="CEE, UIUC" />
-  <meta name="citation_author_orcid" content="312-508-2526" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta property="twitter:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/7f92a2ec119ce4cc52d2554ef40d173229c7b372/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/7f92a2ec119ce4cc52d2554ef40d173229c7b372/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/7f92a2ec119ce4cc52d2554ef40d173229c7b372/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/71ec9552cc3cb187fdc060b801f8e2bb98aca26c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/71ec9552cc3cb187fdc060b801f8e2bb98aca26c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/71ec9552cc3cb187fdc060b801f8e2bb98aca26c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,12 +75,12 @@ manubot-clear-requests-cache: false
     [johndoe](https://twitter.com/johndoe)<br>
   <small>
      CEE, UIUC
-     · Funded by None
+     · Funded by Grant XXXXXXXX
   </small>
 
 + **Jesus Castro**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [312-508-2526](https://orcid.org/312-508-2526)
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [jcastr54](https://github.com/jcastr54)<br>
   <small>
@@ -89,20 +89,11 @@ manubot-clear-requests-cache: false
 
 
 
-## Abstract {.page_break_before}
+## Description of Data {.page_break_before}
 
-<<<<<<< HEAD
-Abstract starts here.  Trial of modification starts here.
-=======
-This is the abstract. 
-This dataset consists of a collection of Ground Penetrating Radar timeseries data. 
->>>>>>> f9ef2ca5a3ae58614c332a5a1135ab79db8ca543
+The data set represents raw signals of Non-Destructive Evaluation (NDE) tests conducted by Ground Penetrating Radar (GPR) which were collected from in-service reinforced concrete bridge decks. The dataset was annotated using three classes in accordance with bridge deck repair: Class 1-No Delamination; Class 2-Delamination (delamination above top bar mat), and Class 3-Delamination (delamination below top bar mat).
+The data will be obtained from https://commons.und.edu/data/19/ [1] which contains annotated dataset for the structural defects. Data is present in the. xlsx format. Each column in the dataset has an approximate length of 512 where the first column represents the time (ns), and the rest of the columns are all amplitudes of GPR signals. Hence, each raw signal (columns) is directly annotated to one of the three possible classes. In addition, some other information like the scan length and the coordinates of each signal scan is also provided. 
 
-<<<<<<< HEAD
-Abstract is written here
-=======
-This is the abstract.
->>>>>>> 499b1e02d7cd8e6521595ca6b0ab30885fcb8f85
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
