@@ -14,8 +14,14 @@ authors:
     email: john.doe@something.com
     affiliations:
       - CEE, UIUC
-    funders:
-      - None
+  - github: XXXX
+    name: Omar
+    initials: O
+    orcid: XXXX-XXXX-XXXX-XXXX
+    twitter: XXXXX
+    email: XXX
+    affiliations:
+      - CEE, UIUC
   - github: jcastr54
     name: Jesus Castro
     initials: JC
@@ -23,4 +29,3 @@ authors:
     email: jcastr54@illinois.edu
     affiliations:
       - CEE, UIUC
-
