@@ -30,6 +30,7 @@ header-includes: |-
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Ishfaq Aziz" />
+  <meta name="citation_author_orcid" content="0000-0001-5723-0331" />
   <meta name="citation_author" content="Jesus Castro" />
   <meta name="citation_author_orcid" content="0000-0002-7684-7422" />
   <meta name="citation_author" content="Chirayu Kothari" />
@@ -42,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6e4675cf3ce14ae0a3169e40f8021b2b22e6f730/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6e4675cf3ce14ae0a3169e40f8021b2b22e6f730/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6e4675cf3ce14ae0a3169e40f8021b2b22e6f730/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6b6ae8e8426501a6a9409d990c7d56da0c8f4eea/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6b6ae8e8426501a6a9409d990c7d56da0c8f4eea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6b6ae8e8426501a6a9409d990c7d56da0c8f4eea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,6 +70,8 @@ manubot-clear-requests-cache: false
 
 
 + **Ishfaq Aziz**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-5723-0331](https://orcid.org/0000-0001-5723-0331)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [ishfaqa2](https://github.com/ishfaqa2)<br>
   <small>
