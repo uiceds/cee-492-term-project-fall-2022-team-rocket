@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8e60466a7eeedcfd3506684a9145d1e1d6ab8c0a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8e60466a7eeedcfd3506684a9145d1e1d6ab8c0a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8e60466a7eeedcfd3506684a9145d1e1d6ab8c0a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b478e19407e1d697a8ed2eab4ff062ef93360498/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b478e19407e1d697a8ed2eab4ff062ef93360498/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b478e19407e1d697a8ed2eab4ff062ef93360498/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -130,12 +130,12 @@ The data will be obtained from https://commons.und.edu/data/19/ [1] which contai
 <h2 id="plan">Plan</h2>
 <p>The A-scan data is categorized into three classes based on the delamination conditions. Fast Fourier transform of the A-scans will be performed to obtain the peak frequency and peak width. These values will act as independent variables in the machine learning model to predict the delamination condition. The bridge health at each location where an A-scan is collected is categorized into three classes: Class 1 No delamination, Class 2 Delamination (above the top bar mat), and Class 3 Delamination (below the top bar mat). Around 10,000 labeled A-scans will be used to train the model and 3000 labeled A-scans will be utilized for validation. Later, the trained model will be tested on 3000 A-scans to predict the delamination condition. Finally, B-scans will be generated and deck conditions at different locations of the bridge will be predicted.</p>
 <h2 class="page_break_before" id="exploratory-data-analysis">Exploratory Data Analysis</h2>
-<h3 id="preliminary-aalysis">Preliminary Aalysis</h3>
+<h3 id="preliminary-analysis">Preliminary Analysis</h3>
 <h3 id="mean-plots">Mean Plots</h3>
 <h3 id="fast-fourier-transform-fft">Fast Fourier Transform (FFT)</h3>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png" style="height:2in" alt="Figure 2: a) Amplitude vs Frequency Class 1" /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>a) Amplitude vs Frequency Class 1</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png" style="height:2in" alt="Figure 2: a) Amplitude vs Frequency Class 1" /><figcaption aria-hidden="true"><span>Figure 2:</span> <em>a) Amplitude vs Frequency Class 1</em></figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
@@ -145,7 +145,7 @@ The data will be obtained from https://commons.und.edu/data/19/ [1] which contai
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png" style="height:2in" alt="Figure 4: a) Amplitude vs Frequency Class 3" /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>a) Amplitude vs Frequency Class 3</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png" style="height:2in" alt="Figure 4: a) Amplitude vs Frequency Class 3" /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong><em>a) Amplitude vs Frequency Class 3</em></strong></figcaption>
 </figure>
 </div>
 <h3 id="principal-component-analysis">Principal Component Analysis</h3>
