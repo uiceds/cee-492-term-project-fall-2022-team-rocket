@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/41913078a3ab14fc3356b42f632481c8e7a8819b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/41913078a3ab14fc3356b42f632481c8e7a8819b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/41913078a3ab14fc3356b42f632481c8e7a8819b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8e60466a7eeedcfd3506684a9145d1e1d6ab8c0a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8e60466a7eeedcfd3506684a9145d1e1d6ab8c0a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8e60466a7eeedcfd3506684a9145d1e1d6ab8c0a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -140,8 +140,7 @@ The A-scan data is categorized into three classes based on the delamination cond
 
 ![
 **a) Amplitude vs Frequency Class 1**
-](https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png "Wide image"){#fig:wide-image}
-
+](https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png "Tall image"){#fig:tall-image height=2in}
 
 ![
 **a) Amplitude vs Frequency Class 2**
@@ -151,8 +150,7 @@ The A-scan data is categorized into three classes based on the delamination cond
 
 ![
 **a) Amplitude vs Frequency Class 3**
-](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Wide image"){#fig:wide-image}
-
+](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Tall image"){#fig:tall-image height=2in}
 
 
 ### Principal Component Analysis
