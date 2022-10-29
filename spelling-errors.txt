@@ -2,7 +2,7 @@ Abdelrahman
 Aziz
 Chirayu
 Dataset
-Delamination
+delamination
 Dorafshan
 GPR
 Ichi
