@@ -23,7 +23,6 @@ content/02.Plan.md:2:delamination
 content/02.Plan.md:2:delamination
 content/02.Plan.md:2:Delamination
 content/02.Plan.md:2:Delamination
-content/03.ExplorDataAnalysis.md:3:Aalysis
 content/03.ExplorDataAnalysis.md:12:FFT
 content/05.References.md:3:Dataset
 content/05.References.md:3:Dorafshan

@@ -1,9 +1,8 @@
-Aalysis
 Abdelrahman
 Aziz
 Chirayu
-Dataset
-Delamination
+dataset
+delamination
 Dorafshan
 FFT
 GPR
