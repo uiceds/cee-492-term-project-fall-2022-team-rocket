@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/tree/gh-pages) branch hosts the contents of this directory at <https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/>.
-The permalink for this webpage version is <https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/aad14f9e348665a2e5ad802c8f546e2861f2a3da/>.
+The permalink for this webpage version is <https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/41913078a3ab14fc3356b42f632481c8e7a8819b/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`aad14f9e348665a2e5ad802c8f546e2861f2a3da`](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/commit/aad14f9e348665a2e5ad802c8f546e2861f2a3da).
+[`41913078a3ab14fc3356b42f632481c8e7a8819b`](https://github.com/uiceds/cee-492-term-project-fall-2022-team-rocket/commit/41913078a3ab14fc3356b42f632481c8e7a8819b).
