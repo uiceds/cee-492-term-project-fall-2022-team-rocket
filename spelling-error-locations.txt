@@ -6,7 +6,6 @@ content/01.Intro.md:4:Delamination
 content/01.Intro.md:4:Delamination
 content/01.Intro.md:4:GPR
 content/01.Intro.md:4:NDE
-content/01.Intro.md:4:TThe
 content/01.Intro.md:6:dataset
 content/01.Intro.md:6:dataset
 content/01.Intro.md:6:GPR
