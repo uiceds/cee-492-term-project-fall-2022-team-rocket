@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/33b00cefcd3e80715e27426ada9fe04c374af6c6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/33b00cefcd3e80715e27426ada9fe04c374af6c6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/33b00cefcd3e80715e27426ada9fe04c374af6c6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9060711daee1b7fc6fca1644fdaac8f6fb900d0b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9060711daee1b7fc6fca1644fdaac8f6fb900d0b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9060711daee1b7fc6fca1644fdaac8f6fb900d0b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,14 +141,59 @@ TThe data collected from the GPR are usually presented in two different formats,
 <div style="text-align: justify">
 The dataset consists of 16,384 GPR scans that were taken at different locations along the bridge. Each scan has a total of 512 points representing a scan time of 12 ns. The scans are categorized into three main classes: Class 1 – no delamination, class 2 – delamination above the top rebar, and class 3 – delamination below the top rebar, representing 8427, 6812, and 1144 scans, respectively, as shown in Table 1. Other properties of the GPR scans are summarized in Table 2.
 </div>
-<p>Table 1</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Classes</th>
+<th style="text-align: center;">Class 1</th>
+<th style="text-align: center;">Class 2</th>
+<th style="text-align: center;">Class 3</th>
+<th style="text-align: center;">Total Scans</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">No of scans</td>
+<td style="text-align: center;">8427</td>
+<td style="text-align: center;">6812</td>
+<td style="text-align: center;">1144</td>
+<td style="text-align: center;">16,383</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Meaning of each class</td>
+<td style="text-align: center;">Sound Concrete</td>
+<td style="text-align: center;">Concrete with delamination above top rebar</td>
+<td style="text-align: center;">Concrete with delamination below top rebar</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Peak amplitude of mean signal</td>
+<td style="text-align: center;">10121</td>
+<td style="text-align: center;">9813</td>
+<td style="text-align: center;">9649</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
 <p>Table 2</p>
 <div style="text-align: justify">
 The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, in order to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings was subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three classes.
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png" style="height:2in" alt="Figure 2: a) Randomly selected signals from each of the three classes." /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>a) Randomly selected signals from each of the three classes.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png" style="height:2in" alt="Figure 2: Randomly selected signals from each of the three classes." /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>Randomly selected signals from each of the three classes.</strong></figcaption>
 </figure>
 </div>
 <div style="text-align: justify">
@@ -156,14 +201,18 @@ Based on the reference paper that was used to obtain the data [1] the B-scan, wh
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198888092-eba56164-5253-424a-b1bf-66a6aad0e06d.png" style="height:2in" alt="Figure 3: a) Randomly selected signals from each class, showing only the data points between 2 and 8 ns." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>a) Randomly selected signals from each class, showing only the data points between 2 and 8 ns.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198888092-eba56164-5253-424a-b1bf-66a6aad0e06d.png" style="height:2in" alt="Figure 3: Randomly selected signals from each class, showing only the data points between 2 and 8 ns." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Randomly selected signals from each class, showing only the data points between 2 and 8 ns.</strong></figcaption>
 </figure>
 </div>
 <h3 id="mean-plots">Mean Plots</h3>
 <div style="text-align: justify">
 To visually distinguish between the three different classes of data, the mean all scans from each class are plotted in Figure 4. The figure shows that the three means look almost identical to each other, so there is no distinctive feature in the time domain signal that can help assign new signals to any of the three classes. Thus, deeper levels of data analysis are required to identify any distinctive features that can help classify new data.
 </div>
-<p>Figure 4</p>
+<div id="fig:tall-image" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973477/198890014-03682ba5-2c91-4b70-a74a-ad6100371880.png" style="height:2in" alt="Figure 4: The mean of all signals for each class." /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>The mean of all signals for each class.</strong></figcaption>
+</figure>
+</div>
 <h3 id="fast-fourier-transform-fft">Fast Fourier Transform (FFT)</h3>
 <div style="text-align: justify">
 Another approach to visualizing sinusoidal time-series datasets is by identifying dominant cyclic patterns. This can be conducted with the Fast-Fourier Transform, a computationally efficient way to calculate the discrete Fourier Transform from a dataset. This algorithm transforms information on the time domain into the frequency domain.
@@ -173,7 +222,7 @@ The time-series datasets from the three classes (no delamination, delamination a
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png" style="height:2in" alt="Figure 4: a) Amplitude vs Frequency Class 1 with no delamination" /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>a) Amplitude vs Frequency Class 1 with no delamination</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png" style="height:2in" alt="Figure 5: Amplitude vs Frequency Class 1 with no delamination" /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Amplitude vs Frequency Class 1 with no delamination</strong></figcaption>
 </figure>
 </div>
 <div style="text-align: justify">
@@ -181,12 +230,12 @@ In Figure 6 it is observed that in the sections where delamination was identifie
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198805626-7db1d0f0-c922-4421-bd7a-98ac69ab4543.png" style="height:2in" alt="Figure 5: Amplitude vs Frequency Class 2 with delamination above the rebar" /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Amplitude vs Frequency Class 2 with delamination above the rebar</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198805626-7db1d0f0-c922-4421-bd7a-98ac69ab4543.png" style="height:2in" alt="Figure 6: Amplitude vs Frequency Class 2 with delamination above the rebar" /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Amplitude vs Frequency Class 2 with delamination above the rebar</strong></figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png" style="height:2in" alt="Figure 6: Amplitude vs Frequency Class 3 with delamination below the top rebar" /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Amplitude vs Frequency Class 3 with delamination below the top rebar</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png" style="height:2in" alt="Figure 7: Amplitude vs Frequency Class 3 with delamination below the top rebar" /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Amplitude vs Frequency Class 3 with delamination below the top rebar</strong></figcaption>
 </figure>
 </div>
 <div style="text-align: justify">
@@ -195,7 +244,7 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198889209-6eba3151-f991-4375-9624-e01f7215b095.png" style="height:2in" alt="Figure 7: Violin plots representing the variation in maximum FFT amplitude of the three classes." /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Violin plots representing the variation in maximum FFT amplitude of the three classes.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198889209-6eba3151-f991-4375-9624-e01f7215b095.png" style="height:2in" alt="Figure 8: Violin plots representing the variation in maximum FFT amplitude of the three classes." /><figcaption aria-hidden="true"><span>Figure 8:</span> <strong>Violin plots representing the variation in maximum FFT amplitude of the three classes.</strong></figcaption>
 </figure>
 </div>
 <div style="text-align: justify">
@@ -213,12 +262,12 @@ Principal component analysis (PCA) was performed on the dataset to change the ba
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198888679-db816429-7079-460d-88c9-fab685fbe53d.png" style="height:2in" alt="Figure 8: The PCA data for all the datasets." /><figcaption aria-hidden="true"><span>Figure 8:</span> <strong>The PCA data for all the datasets.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198888679-db816429-7079-460d-88c9-fab685fbe53d.png" style="height:2in" alt="Figure 9: The PCA data for all the datasets." /><figcaption aria-hidden="true"><span>Figure 9:</span> <strong>The PCA data for all the datasets.</strong></figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198889098-bd49b954-add9-4b08-bf6d-740e00b753ae.png" style="height:2in" alt="Figure 9: PCA data of two different 1000 randomly selected points from each class." /><figcaption aria-hidden="true"><span>Figure 9:</span> <strong>PCA data of two different 1000 randomly selected points from each class.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198889098-bd49b954-add9-4b08-bf6d-740e00b753ae.png" style="height:2in" alt="Figure 10: PCA data of two different 1000 randomly selected points from each class." /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>PCA data of two different 1000 randomly selected points from each class.</strong></figcaption>
 </figure>
 </div>
 <h2 id="predictive-modeling">Predictive Modeling</h2>
