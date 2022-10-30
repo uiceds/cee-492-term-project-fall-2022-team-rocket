@@ -2,10 +2,10 @@ Abdelrahman
 Aziz
 Chirayu
 Convolutional
-dataset
+Dataset
 datasets
 delaminated
-delamination
+Delamination
 Dorafshan
 FFT
 GPR
@@ -23,5 +23,7 @@ rebar
 rebars
 Scheers
 SDNET
+TGround
+TThe
 Wideband
 xlsx
