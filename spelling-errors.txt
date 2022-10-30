@@ -5,7 +5,7 @@ Convolutional
 Dataset
 datasets
 delaminated
-Delamination
+delamination
 Dorafshan
 FFT
 GPR

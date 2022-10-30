@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/522da675733e430a71903ff01f489b164569ccd3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/522da675733e430a71903ff01f489b164569ccd3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/522da675733e430a71903ff01f489b164569ccd3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/33b00cefcd3e80715e27426ada9fe04c374af6c6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/33b00cefcd3e80715e27426ada9fe04c374af6c6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/33b00cefcd3e80715e27426ada9fe04c374af6c6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -135,7 +135,7 @@ Table 1
 
 Table 2
 
-<div style="text-align: justify">The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, in order to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings were subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three class. </div>
+<div style="text-align: justify">The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, in order to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings was subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three classes. </div>
 
 ![
 **a) Randomly selected signals from each of the three classes.**
@@ -153,7 +153,7 @@ Table 2
 
 
 ### Mean Plots
-<div style="text-align: justify">In an attempt to visually distinguish between the three different classes of data, the mean all scans from each class are plotted in Figure 4. The figure shows that the three means look almost identical to each other, so there is no distinctive feature in the time domain signal that can help assign new signals to any of the three classes. Thus, deeper levels of data analysis are required to identify any distinctive features that can help classify new data.</div>
+<div style="text-align: justify">To visually distinguish between the three different classes of data, the mean all scans from each class are plotted in Figure 4. The figure shows that the three means look almost identical to each other, so there is no distinctive feature in the time domain signal that can help assign new signals to any of the three classes. Thus, deeper levels of data analysis are required to identify any distinctive features that can help classify new data.</div>
 
 Figure 4
 
@@ -166,24 +166,24 @@ Figure 4
 
 <div style="text-align: justify">Another approach to visualizing sinusoidal time-series datasets is by identifying dominant cyclic patterns. This can be conducted with the Fast-Fourier Transform, a computationally efficient way to calculate the discrete Fourier Transform from a dataset. This algorithm transforms information on the time domain into the frequency domain. </div>
 
-<div style="text-align: justify">The time-series datasets from the three classes (no delamination, delamination above rebar, and delamination below rebar) were all transformed into the frequency domain to identify patterns that could easily differentiate one class from another.  As observed Figure 5, most of the signal amplitude peaks are observed at a frequency of approximately 0.8 GHz, which is in the standard operating frequency range of GPR antennas for concrete testing. </div>
+<div style="text-align: justify">The time-series datasets from the three classes (no delamination, delamination above rebar, and delamination below rebar) were all transformed into the frequency domain to identify patterns that could easily differentiate one class from another.  As observed in Figure 5, most of the signal amplitude peaks are observed at a frequency of approximately 0.8 GHz, which is in the standard operating frequency range of GPR antennas for concrete testing. </div>
 
 
 
 
 ![
-**a) Amplitude vs Frequency Class 1**
+**a) Amplitude vs Frequency Class 1 with no delamination**
 ](https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png "Tall image"){#fig:tall-image height=2in}
 
 <div style="text-align: justify">In Figure 6 it is observed that in the sections where delamination was identified above the top rebar layer, the amplitude peaks were higher in magnitude than the observed peaks in the sections with non-delaminated sections at similar frequencies. On the other hand, the plot corresponding to the amplitudes of sections identified with delamination below the top rebar later (Figure 7.) displays amplitude peaks with magnitudes lower than in Figure 5 and Figure 6.</div>
 
 ![
-**Amplitude vs Frequency Class 2**
+**Amplitude vs Frequency Class 2 with delamination above the rebar**
 ](https://user-images.githubusercontent.com/112973477/198805626-7db1d0f0-c922-4421-bd7a-98ac69ab4543.png "Tall image"){#fig:tall-image height=2in}
 
 
 ![
-**Amplitude vs Frequency Class 3**
+**Amplitude vs Frequency Class 3 with delamination below the top rebar**
 ](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Tall image"){#fig:tall-image height=2in}
 
 <div style="text-align: justify">From this data processing approach (FFT), a sound differentiation from the three classes (beyond the observed magnitudes in amplitude at approximately 0.8 GHz) cannot be concluded.
