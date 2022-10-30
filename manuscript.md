@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf94dc45082942757442ccfde578049c21aefe8/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf94dc45082942757442ccfde578049c21aefe8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/baf94dc45082942757442ccfde578049c21aefe8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/c77f32f5149fadfaf43675bee5a922931f4f0de6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/c77f32f5149fadfaf43675bee5a922931f4f0de6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/c77f32f5149fadfaf43675bee5a922931f4f0de6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -129,7 +129,7 @@ The A-scan data is categorized into three classes based on the delamination cond
 ### Preliminary Analysis
 
 
-<div style="text-align: right">The dataset consists of 16,384 GPR scans that were taken at different locations along the bridge. Each scan has a total of 512 points representing a scan time of 12 ns. The scans are categorized into three main classes: Class 1 – no delamination, class 2 – delamination above the top rebar, and class 3 – delamination below the top rebar, representing 8427, 6812, and 1144 scans, respectively, as shown in Table 1. Other properties of the GPR scans are summarized in Table 2. </div>
+<div style="text-align: justify">The dataset consists of 16,384 GPR scans that were taken at different locations along the bridge. Each scan has a total of 512 points representing a scan time of 12 ns. The scans are categorized into three main classes: Class 1 – no delamination, class 2 – delamination above the top rebar, and class 3 – delamination below the top rebar, representing 8427, 6812, and 1144 scans, respectively, as shown in Table 1. Other properties of the GPR scans are summarized in Table 2. </div>
 
 Table 1
 
@@ -137,7 +137,20 @@ Table 2
 
 The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, in order to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings were subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three class. 
 
+![
+**a) Randomly selected signals from each of the three classes.**
+](https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png "Tall image"){#fig:tall-image height=2in}
+
+
 Based on the reference paper that was used to obtain the data [1] the B-scan, which is a visual representation of a combination of individual scans stitched together, showed that the bottom rebar reflection was detected at around 7 ns. Thus, it was decided that the readings after around 8 ns would not be useful for the purpose of our model and the remaining 4 ns were removed. Also, it was observed that the initial reflection from the top surface of the concrete is detected around 2 ns, so the first 2 ns were also removed from our data. Sample scans from the resulting signal are shown in Figure 3.
+
+
+![
+**a) Randomly selected signals from each class, showing only the data points between 2 and 8 ns.**
+](https://user-images.githubusercontent.com/112973477/198888092-eba56164-5253-424a-b1bf-66a6aad0e06d.png
+ "Tall image"){#fig:tall-image height=2in}
+
+
 
 ### Mean Plots
 In an attempt to visually distinguish between the three different classes of data, the mean all scans from each class are plotted in Figure 4. The figure shows that the three means look almost identical to each other, so there is no distinctive feature in the time domain signal that can help assign new signals to any of the three classes. Thus, deeper levels of data analysis are required to identify any distinctive features that can help classify new data.
@@ -159,18 +172,18 @@ The time-series datasets from the three classes (no delamination, delamination a
 
 
 ![
-*a) Amplitude vs Frequency Class 1*
+**a) Amplitude vs Frequency Class 1**
 ](https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png "Tall image"){#fig:tall-image height=2in}
 
 In Figure 6 it is observed that in the sections where delamination was identified above the top rebar layer, the amplitude peaks were higher in magnitude than the observed peaks in the sections with non-delaminated sections at similar frequencies. On the other hand, the plot corresponding to the amplitudes of sections identified with delamination below the top rebar later (Figure 7.) displays amplitude peaks with magnitudes lower than in Figure 5 and Figure 6.
 
 ![
-*a) Amplitude vs Frequency Class 2*
+**a) Amplitude vs Frequency Class 2**
 ](https://user-images.githubusercontent.com/112973477/198805626-7db1d0f0-c922-4421-bd7a-98ac69ab4543.png "Tall image"){#fig:tall-image height=2in}
 
 
 ![
-*a) Amplitude vs Frequency Class 3*
+**a) Amplitude vs Frequency Class 3**
 ](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Tall image"){#fig:tall-image height=2in}
 
 From this data processing approach (FFT), a sound differentiation from the three classes (beyond the observed magnitudes in amplitude at approximately 0.8 GHz) cannot be concluded.
