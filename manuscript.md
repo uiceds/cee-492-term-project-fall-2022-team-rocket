@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/ebcef87bf35571b3bc62515778c71ee62459c8f9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/ebcef87bf35571b3bc62515778c71ee62459c8f9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/ebcef87bf35571b3bc62515778c71ee62459c8f9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6cd03cea2b436135398566bdc8d780d0c3bd35c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6cd03cea2b436135398566bdc8d780d0c3bd35c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6cd03cea2b436135398566bdc8d780d0c3bd35c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -131,18 +131,18 @@ The A-scan data is categorized into three classes based on the delamination cond
 
 <div style="text-align: justify">The dataset consists of 16,384 GPR scans that were taken at different locations along the bridge. Each scan has a total of 512 points representing a scan time of 12 ns. The scans are categorized into three main classes: Class 1 – no delamination, class 2 – delamination above the top rebar, and class 3 – delamination below the top rebar, representing 8427, 6812, and 1144 scans, respectively, as shown in Table 1. Other properties of the GPR scans are summarized in Table 2. </div>
 
-![
-**Summary of classes/labels of the dataset**
-]
+
+<div style="text-align: center">**Table 1. Summary of classes/labels of the dataset**</div>
+
 | Classes | Class 1 | Class 2 | Class 3 |
 |:-----------------|:-------------:|:-------------:|:-------------:|
 | No of scans | 8427 | 6812 | 1144 |
 | Meaning of each class | Sound Concrete | Concrete with delamination above top rebar | Concrete with delamination below top rebar |
 | Peak amplitude of mean signal | 10121 | 9813 | 9649 |
 
-![
-**Properties of the GPR scans**
-]
+
+<div style="text-align: center">**Table 2. Properties of the GPR scans**</div>
+
 |:-----------------|:-------------:|
 | Total number of scans | 16,383 |
 | Total Length of scan | 363.3 ft. |
@@ -155,7 +155,7 @@ The A-scan data is categorized into three classes based on the delamination cond
 <div style="text-align: justify">The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, in order to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings was subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three classes. </div>
 
 ![
-**Randomly selected signals from each of the three classes.**
+<div style="text-align: center">**Randomly selected signals from each of the three classes.**</div>
 ](https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png "Tall image"){#fig:tall-image height=2in}
 
 
@@ -163,7 +163,7 @@ The A-scan data is categorized into three classes based on the delamination cond
 
 
 ![
-**Randomly selected signals from each class, showing only the data points between 2 and 8 ns.**
+<div style="text-align: center">**Randomly selected signals from each class, showing only the data points between 2 and 8 ns.**</div>
 ](https://user-images.githubusercontent.com/112973477/198888092-eba56164-5253-424a-b1bf-66a6aad0e06d.png
  "Tall image"){#fig:tall-image height=2in}
 
@@ -173,7 +173,7 @@ The A-scan data is categorized into three classes based on the delamination cond
 <div style="text-align: justify">To visually distinguish between the three different classes of data, the mean all scans from each class are plotted in Figure 4. The figure shows that the three means look almost identical to each other, so there is no distinctive feature in the time domain signal that can help assign new signals to any of the three classes. Thus, deeper levels of data analysis are required to identify any distinctive features that can help classify new data.</div>
 
 ![
-**The mean of all signals for each class.**
+<div style="text-align: center">**The mean of all signals for each class.**</div>
 ](https://user-images.githubusercontent.com/112973477/198890014-03682ba5-2c91-4b70-a74a-ad6100371880.png
  "Tall image"){#fig:tall-image height=2in}
 
@@ -192,18 +192,18 @@ The A-scan data is categorized into three classes based on the delamination cond
 
 
 ![
-**Amplitude vs Frequency Class 1 with no delamination**
+<div style="text-align: center">**Amplitude vs Frequency Class 1 with no delamination**</div>
 ](https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png "Tall image"){#fig:tall-image height=2in}
 
 <div style="text-align: justify">In Figure 6 it is observed that in the sections where delamination was identified above the top rebar layer, the amplitude peaks were higher in magnitude than the observed peaks in the sections with non-delaminated sections at similar frequencies. On the other hand, the plot corresponding to the amplitudes of sections identified with delamination below the top rebar later (Figure 7.) displays amplitude peaks with magnitudes lower than in Figure 5 and Figure 6.</div>
 
 ![
-**Amplitude vs Frequency Class 2 with delamination above the rebar**
+<div style="text-align: center">**Amplitude vs Frequency Class 2 with delamination above the rebar**</div>
 ](https://user-images.githubusercontent.com/112973477/198805626-7db1d0f0-c922-4421-bd7a-98ac69ab4543.png "Tall image"){#fig:tall-image height=2in}
 
 
 ![
-**Amplitude vs Frequency Class 3 with delamination below the top rebar**
+<div style="text-align: center">**Amplitude vs Frequency Class 3 with delamination below the top rebar**</div>
 ](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Tall image"){#fig:tall-image height=2in}
 
 <div style="text-align: justify">From this data processing approach (FFT), a sound differentiation from the three classes (beyond the observed magnitudes in amplitude at approximately 0.8 GHz) cannot be concluded.
@@ -211,14 +211,14 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 
 
 ![
-**Violin plots representing the variation in maximum FFT amplitude of the three classes.**
+<div style="text-align: center">**Violin plots representing the variation in maximum FFT amplitude of the three classes.**</div>
 ](https://user-images.githubusercontent.com/112973477/198889209-6eba3151-f991-4375-9624-e01f7215b095.png
  "Tall image"){#fig:tall-image height=2in}
 
 
 <div style="text-align: justify">Similarly, the frequency at maximum amplitude was observed for the FFT spectra in the three classes (Figure 9). The mean frequency at maximum amplitude for class 3 was lower than that of class 2 and class 1. The Violin plot for class 1 and class 2 look similar. However, some of the FFT spectra in class 2 have a frequency at a maximum amplitude lower than that of class 1’s data. </div>
 
-**Violin plot representing the variation in frequency at maximum FFT amplitude of the three classes.**
+<div style="text-align: center">**Violin plot representing the variation in frequency at maximum FFT amplitude of the three classes.**</div>
 ](https://user-images.githubusercontent.com/112973477/198889398-21f6da40-2975-4964-b01e-6223ac78a1ce.png
  "Tall image"){#fig:tall-image height=2in}
 
@@ -231,14 +231,14 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 <div style="text-align: justify">Principal component analysis (PCA) was performed on the dataset to change the basis of the data and improve its interpretability. The number of modes was selected to be 2. The results of the first and second modes of the PCA data of the whole dataset are plotted in Figure 10. Since the number of data points for each class is different, normalizing the number of points might provide a better visual representation of the scatter of data of different classes. So, 1000 random points were selected from each class and then PCA was performed on this sub-dataset. The results of the two modes of this PCA are shown in Figure 11. </div>
 
 ![
-**The PCA data for all the datasets.**
+<div style="text-align: center">**The PCA data for all the datasets.**</div>
 ](https://user-images.githubusercontent.com/112973477/198888679-db816429-7079-460d-88c9-fab685fbe53d.png "Tall image"){#fig:tall-image height=2in}
 
 
 
 
 ![
-**PCA data of two different 1000 randomly selected points from each class.**
+<div style="text-align: center">**PCA data of two different 1000 randomly selected points from each class.**</div>
 ](https://user-images.githubusercontent.com/112973477/198889098-bd49b954-add9-4b08-bf6d-740e00b753ae.png "Tall image"){#fig:tall-image height=2in}
 
 
