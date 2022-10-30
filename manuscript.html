@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3473cd245bc89a8e1c89a20cf15854d115d6f22c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3473cd245bc89a8e1c89a20cf15854d115d6f22c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3473cd245bc89a8e1c89a20cf15854d115d6f22c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/890c719a54713ae6f9da3ae9dc5b80edc68757f5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/890c719a54713ae6f9da3ae9dc5b80edc68757f5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/890c719a54713ae6f9da3ae9dc5b80edc68757f5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -121,6 +121,7 @@
 <div style="text-align: justify">
 TThe data set represents raw signals of Non-Destructive Evaluation (NDE) tests conducted by Ground Penetrating Radar (GPR) which were collected from in-service reinforced concrete bridge decks. The dataset was annotated using three classes in accordance with bridge deck repair: Class 1-No Delamination; Class 2-Delamination (delamination above top bar mat), and Class 3-Delamination (delamination below top bar mat).
 </div>
+<div style="text-align: justify">
 The data will be obtained from https://commons.und.edu/data/19/ [1] which contains annotated dataset for the structural defects. Data is present in the. xlsx format. Each column in the dataset has an approximate length of 512 where the first column represents the time (ns), and the rest of the columns are all amplitudes of GPR signals. Hence, each raw signal (columns) is directly annotated to one of the three possible classes. In addition, some other information like the scan length and the coordinates of each signal scan is also provided.
 </div>
 <div style="text-align: justify">
@@ -135,7 +136,9 @@ TThe data collected from the GPR are usually presented in two different formats,
 </figure>
 </div>
 <h2 id="plan">Plan</h2>
-<p>The A-scan data is categorized into three classes based on the delamination conditions. Fast Fourier transform of the A-scans will be performed to obtain the peak frequency and peak width. These values will act as independent variables in the machine learning model to predict the delamination condition. The bridge health at each location where an A-scan is collected is categorized into three classes: Class 1 No delamination, Class 2 Delamination (above the top bar mat), and Class 3 Delamination (below the top bar mat). Around 10,000 labeled A-scans will be used to train the model and 3000 labeled A-scans will be utilized for validation. Later, the trained model will be tested on 3000 A-scans to predict the delamination condition. Finally, B-scans will be generated and deck conditions at different locations of the bridge will be predicted.</p>
+<div style="text-align: justify">
+The A-scan data is categorized into three classes based on the delamination conditions. Fast Fourier transform of the A-scans will be performed to obtain the peak frequency and peak width. These values will act as independent variables in the machine learning model to predict the delamination condition. The bridge health at each location where an A-scan is collected is categorized into three classes: Class 1 No delamination, Class 2 Delamination (above the top bar mat), and Class 3 Delamination (below the top bar mat). Around 10,000 labeled A-scans will be used to train the model and 3000 labeled A-scans will be utilized for validation. Later, the trained model will be tested on 3000 A-scans to predict the delamination condition. Finally, B-scans will be generated and deck conditions at different locations of the bridge will be predicted.
+</div>
 <h2 class="page_break_before" id="exploratory-data-analysis">Exploratory Data Analysis</h2>
 <h3 id="preliminary-analysis">Preliminary Analysis</h3>
 <div style="text-align: justify">
@@ -220,15 +223,17 @@ The dataset consists of 16,384 GPR scans that were taken at different locations 
 <div style="text-align: justify">
 The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, in order to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings was subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three classes.
 </div>
-<div style="text-align: center">
-<img src="https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png" title="fig:" id="fig:tall-image" style="height:2in" alt="Randomly selected signals from each of the three classes" />
+<div id="fig:tall-image" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png" style="height:2in" alt="Figure 2: Randomly selected signals from each of the three classes" /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>Randomly selected signals from each of the three classes</strong></figcaption>
+</figure>
 </div>
 <div style="text-align: justify">
 Based on the reference paper that was used to obtain the data [1] the B-scan, which is a visual representation of a combination of individual scans stitched together, showed that the bottom rebar reflection was detected at around 7 ns. Thus, it was decided that the readings after around 8 ns would not be useful for the purpose of our model and the remaining 4 ns were removed. Also, it was observed that the initial reflection from the top surface of the concrete is detected around 2 ns, so the first 2 ns were also removed from our data. Sample scans from the resulting signal are shown in Figure 3.
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198888092-eba56164-5253-424a-b1bf-66a6aad0e06d.png" style="height:2in" alt="Figure 2: Randomly selected signals from each class, showing only the data points between 2 and 8 ns." /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>Randomly selected signals from each class, showing only the data points between 2 and 8 ns.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198888092-eba56164-5253-424a-b1bf-66a6aad0e06d.png" style="height:2in" alt="Figure 3: Randomly selected signals from each class, showing only the data points between 2 and 8 ns." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Randomly selected signals from each class, showing only the data points between 2 and 8 ns.</strong></figcaption>
 </figure>
 </div>
 <h3 id="mean-plots">Mean Plots</h3>
@@ -237,7 +242,7 @@ To visually distinguish between the three different classes of data, the mean al
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198890014-03682ba5-2c91-4b70-a74a-ad6100371880.png" style="height:2in" alt="Figure 3: The mean of all signals for each class." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>The mean of all signals for each class.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198890014-03682ba5-2c91-4b70-a74a-ad6100371880.png" style="height:2in" alt="Figure 4: The mean of all signals for each class." /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>The mean of all signals for each class.</strong></figcaption>
 </figure>
 </div>
 <h3 id="fast-fourier-transform-fft">Fast Fourier Transform (FFT)</h3>
@@ -249,7 +254,7 @@ The time-series datasets from the three classes (no delamination, delamination a
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png" style="height:2in" alt="Figure 4: Amplitude vs Frequency Class 1 with no delamination" /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>Amplitude vs Frequency Class 1 with no delamination</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png" style="height:2in" alt="Figure 5: Amplitude vs Frequency Class 1 with no delamination" /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Amplitude vs Frequency Class 1 with no delamination</strong></figcaption>
 </figure>
 </div>
 <div style="text-align: justify">
@@ -257,12 +262,12 @@ In Figure 6 it is observed that in the sections where delamination was identifie
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198805626-7db1d0f0-c922-4421-bd7a-98ac69ab4543.png" style="height:2in" alt="Figure 5: Amplitude vs Frequency Class 2 with delamination above the rebar" /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Amplitude vs Frequency Class 2 with delamination above the rebar</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198805626-7db1d0f0-c922-4421-bd7a-98ac69ab4543.png" style="height:2in" alt="Figure 6: Amplitude vs Frequency Class 2 with delamination above the rebar" /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Amplitude vs Frequency Class 2 with delamination above the rebar</strong></figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png" style="height:2in" alt="Figure 6: Amplitude vs Frequency Class 3 with delamination below the top rebar" /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Amplitude vs Frequency Class 3 with delamination below the top rebar</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png" style="height:2in" alt="Figure 7: Amplitude vs Frequency Class 3 with delamination below the top rebar" /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Amplitude vs Frequency Class 3 with delamination below the top rebar</strong></figcaption>
 </figure>
 </div>
 <div style="text-align: justify">
@@ -271,15 +276,17 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198889209-6eba3151-f991-4375-9624-e01f7215b095.png" style="height:2in" alt="Figure 7: Violin plots representing the variation in maximum FFT amplitude of the three classes." /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Violin plots representing the variation in maximum FFT amplitude of the three classes.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198889209-6eba3151-f991-4375-9624-e01f7215b095.png" style="height:2in" alt="Figure 8: Violin plots representing the variation in maximum FFT amplitude of the three classes." /><figcaption aria-hidden="true"><span>Figure 8:</span> <strong>Violin plots representing the variation in maximum FFT amplitude of the three classes.</strong></figcaption>
 </figure>
 </div>
 <div style="text-align: justify">
 Similarly, the frequency at maximum amplitude was observed for the FFT spectra in the three classes (Figure 9). The mean frequency at maximum amplitude for class 3 was lower than that of class 2 and class 1. The Violin plot for class 1 and class 2 look similar. However, some of the FFT spectra in class 2 have a frequency at a maximum amplitude lower than that of class 1’s data.
 </div>
-<p><strong>Violin plot representing the variation in frequency at maximum FFT amplitude of the three classes.</strong>
-](https://user-images.githubusercontent.com/112973477/198889398-21f6da40-2975-4964-b01e-6223ac78a1ce.png
-“Tall image”){#fig:tall-image height=2in}</p>
+<div id="fig:tall-image" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973477/198889398-21f6da40-2975-4964-b01e-6223ac78a1ce.png" style="height:2in" alt="Figure 9: Violin plot representing the variation in frequency at maximum FFT amplitude of the three classes." /><figcaption aria-hidden="true"><span>Figure 9:</span> <strong>Violin plot representing the variation in frequency at maximum FFT amplitude of the three classes.</strong></figcaption>
+</figure>
+</div>
 <div style="text-align: justify">
 It can be easier to separate out Class3 from Class 1 and Class 2 based on the FFT analysis.
 </div>
@@ -289,17 +296,17 @@ Principal component analysis (PCA) was performed on the dataset to change the ba
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198888679-db816429-7079-460d-88c9-fab685fbe53d.png" style="height:2in" alt="Figure 8: The PCA data for all the datasets." /><figcaption aria-hidden="true"><span>Figure 8:</span> <strong>The PCA data for all the datasets.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973615/198893083-66b632bb-c221-4a99-9b82-824d0ea6b08f.png" style="height:2in" alt="Figure 10: The PCA data for all the datasets." /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>The PCA data for all the datasets.</strong></figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/198889098-bd49b954-add9-4b08-bf6d-740e00b753ae.png" style="height:2in" alt="Figure 9: PCA data of two different 1000 randomly selected points from each class." /><figcaption aria-hidden="true"><span>Figure 9:</span> <strong>PCA data of two different 1000 randomly selected points from each class.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/198889098-bd49b954-add9-4b08-bf6d-740e00b753ae.png" style="height:2in" alt="Figure 11: PCA data of two different 1000 randomly selected points from each class." /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>PCA data of two different 1000 randomly selected points from each class.</strong></figcaption>
 </figure>
 </div>
 <h2 id="predictive-modeling">Predictive Modeling</h2>
 <div style="text-align: justify">
-Based on the exploratory data analysis it can be concluded that the differentiation of the classes is challenging. The analytical approach to determining key features for distinguishing different classes is not conclusive and overall, the data delineation is not observed. Hence, Convolutional Neural Network (CNN) will be used to classify the delamination into three categories. The dataset will be divided into two parts with 60-70 % of the data used for training and the rest 30-40% dataset for validation. The raw A-scans will be given as input to the CNN network and will be trained for the expected outcomes in terms of different delamination classes.
+Based on the exploratory data analysis it can be concluded that the differentiation of the classes is challenging. The analytical approach to determining key features for distinguishing different classes is not conclusive and overall, the data delineation is not observed. Hence, Convolutional Neural Network (CNN) will be used to classify the delamination into three categories. The dataset will be divided into three parts with approximately 60 % of the data used for training, 20 % for validation and 20 % for testing. The raw A-scans will be given as input to the CNN network and will be trained for the expected outcomes in terms of different delamination classes.
 </div>
 <div style="text-align: justify">
 Furthermore, the input parameters from our exploratory data analysis (maximum amplitude in time and frequency domain, PCA modes, etc.) will be used to create a machine-learning model for the prediction of the delamination category of the A-scan taken by GPR. Both models will be compared with each other in terms of accuracy and precision.
