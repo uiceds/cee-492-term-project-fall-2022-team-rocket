@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9060711daee1b7fc6fca1644fdaac8f6fb900d0b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9060711daee1b7fc6fca1644fdaac8f6fb900d0b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9060711daee1b7fc6fca1644fdaac8f6fb900d0b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/ebcef87bf35571b3bc62515778c71ee62459c8f9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/ebcef87bf35571b3bc62515778c71ee62459c8f9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/ebcef87bf35571b3bc62515778c71ee62459c8f9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -131,15 +131,26 @@ The A-scan data is categorized into three classes based on the delamination cond
 
 <div style="text-align: justify">The dataset consists of 16,384 GPR scans that were taken at different locations along the bridge. Each scan has a total of 512 points representing a scan time of 12 ns. The scans are categorized into three main classes: Class 1 – no delamination, class 2 – delamination above the top rebar, and class 3 – delamination below the top rebar, representing 8427, 6812, and 1144 scans, respectively, as shown in Table 1. Other properties of the GPR scans are summarized in Table 2. </div>
 
-
-| Classes | Class 1 | Class 2 | Class 3 | Total Scans |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| No of scans | 8427 | 6812 | 1144 | 16,383 |
+![
+**Summary of classes/labels of the dataset**
+]
+| Classes | Class 1 | Class 2 | Class 3 |
+|:-----------------|:-------------:|:-------------:|:-------------:|
+| No of scans | 8427 | 6812 | 1144 |
 | Meaning of each class | Sound Concrete | Concrete with delamination above top rebar | Concrete with delamination below top rebar |
 | Peak amplitude of mean signal | 10121 | 9813 | 9649 |
 
+![
+**Properties of the GPR scans**
+]
+|:-----------------|:-------------:|
+| Total number of scans | 16,383 |
+| Total Length of scan | 363.3 ft. |
+| Interval between subsequent scans | 0.0222 ft. |
+| Time duration of each scan | 12 nano seconds |
+| Data points per scan | 512 |
+| Sample rate (calculated) | 42.67 GHz |
 
-Table 2
 
 <div style="text-align: justify">The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, in order to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings was subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three classes. </div>
 

@@ -5,7 +5,7 @@ Convolutional
 dataset
 datasets
 delaminated
-delamination
+Delamination
 Dorafshan
 FFT
 GPR
@@ -15,6 +15,7 @@ Ishfaq
 ishfaqa
 jcastr
 Kothari
+nano
 NDE
 oaa
 PCA
