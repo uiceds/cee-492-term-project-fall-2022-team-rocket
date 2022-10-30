@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6cd03cea2b436135398566bdc8d780d0c3bd35c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6cd03cea2b436135398566bdc8d780d0c3bd35c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e6cd03cea2b436135398566bdc8d780d0c3bd35c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b0b7ba34bd4b3e3700448afd74917551626cbe94/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b0b7ba34bd4b3e3700448afd74917551626cbe94/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b0b7ba34bd4b3e3700448afd74917551626cbe94/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,7 +133,6 @@ The A-scan data is categorized into three classes based on the delamination cond
 
 
 <div style="text-align: center">**Table 1. Summary of classes/labels of the dataset**</div>
-
 | Classes | Class 1 | Class 2 | Class 3 |
 |:-----------------|:-------------:|:-------------:|:-------------:|
 | No of scans | 8427 | 6812 | 1144 |
@@ -142,8 +141,6 @@ The A-scan data is categorized into three classes based on the delamination cond
 
 
 <div style="text-align: center">**Table 2. Properties of the GPR scans**</div>
-
-|:-----------------|:-------------:|
 | Total number of scans | 16,383 |
 | Total Length of scan | 363.3 ft. |
 | Interval between subsequent scans | 0.0222 ft. |
@@ -155,7 +152,7 @@ The A-scan data is categorized into three classes based on the delamination cond
 <div style="text-align: justify">The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, in order to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings was subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three classes. </div>
 
 ![
-<div style="text-align: center">**Randomly selected signals from each of the three classes.**</div>
+**<div style="text-align: center">Randomly selected signals from each of the three classes.</div>**
 ](https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png "Tall image"){#fig:tall-image height=2in}
 
 
@@ -173,9 +170,9 @@ The A-scan data is categorized into three classes based on the delamination cond
 <div style="text-align: justify">To visually distinguish between the three different classes of data, the mean all scans from each class are plotted in Figure 4. The figure shows that the three means look almost identical to each other, so there is no distinctive feature in the time domain signal that can help assign new signals to any of the three classes. Thus, deeper levels of data analysis are required to identify any distinctive features that can help classify new data.</div>
 
 ![
-<div style="text-align: center">**The mean of all signals for each class.**</div>
+<div style="text-align: center">**The mean of all signals for each class.**
 ](https://user-images.githubusercontent.com/112973477/198890014-03682ba5-2c91-4b70-a74a-ad6100371880.png
- "Tall image"){#fig:tall-image height=2in}
+ "Tall image"){#fig:tall-image height=2in}</div>
 
 
 
