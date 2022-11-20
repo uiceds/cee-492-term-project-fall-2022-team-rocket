@@ -6,7 +6,7 @@ dataset
 datasets
 DecisionTree
 delaminated
-delamination
+Delamination
 Dorafshan
 FFT
 GPR
@@ -18,6 +18,7 @@ jcastr
 jl
 Kothari
 Maxpool
+MSE
 nano
 NDE
 oaa
@@ -27,9 +28,8 @@ predicitve
 radargram
 rebar
 rebars
-Regresion
+regresion
 Relu
-RMSE
 Scheers
 SDNET
 Softmax
