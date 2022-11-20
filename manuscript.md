@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b5014e0e9ed126f2400b8c0fe9d9a0e149901c74/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b5014e0e9ed126f2400b8c0fe9d9a0e149901c74/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b5014e0e9ed126f2400b8c0fe9d9a0e149901c74/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8431fa87f8c486c55c60ed9d6daf97160a2bd678/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8431fa87f8c486c55c60ed9d6daf97160a2bd678/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8431fa87f8c486c55c60ed9d6daf97160a2bd678/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -314,7 +314,7 @@ Table 3 provides a accuracy/performance based summary of the effectiveness of ea
 | Decision Tree | 60 % | 82 % | 67 % | 45 % |
 | Random Forest | 60 % | 76 % | 65 % | 49 % |
 | Regression | 60 % | 6.1 | 6.2 | 5.5  |
-| 1-D CNN |	60% | 52 % | 51 % | 52 |		
+| 1-D CNN |	60% | 52 % | 51 % | 52 % |		
 
 ## References 
 
