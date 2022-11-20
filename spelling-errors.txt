@@ -2,7 +2,7 @@ Abdelrahman
 Aziz
 Chirayu
 Convolutional
-Dataset
+dataset
 datasets
 DecisionTree
 delaminated
@@ -28,7 +28,7 @@ predicitve
 radargram
 rebar
 rebars
-Regresion
+regresion
 Relu
 Scheers
 SDNET
