@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9fc0d107576e527d19e830c1fd417bc692f945db/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9fc0d107576e527d19e830c1fd417bc692f945db/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9fc0d107576e527d19e830c1fd417bc692f945db/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b76680a117440d8c2e0713bc81d03a0210a719d6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b76680a117440d8c2e0713bc81d03a0210a719d6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b76680a117440d8c2e0713bc81d03a0210a719d6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -324,24 +324,84 @@ The decision tree classifier was created using 3 labels -one for each class- and
 <div style="text-align: justify">
 The summary of the results is shown in Table 3. The accuracy achieved on training data for classes 1, 2, and 3 were around 86%, 83%, and 46%, respectively. This resulted in an overall accuracy of about 82% on the training data. Due to the lower number of Class 3 data points, the model prediction accuracy is lower for class 3 than for the other two classes. The confusion matrices achieved by using this model are shown in Figure 12 and Figure 13. When applied to the complete dataset, the achieved accuracy was around 67%, which means that the accuracy of the unseen 40% of data was about 45%.
 </div>
-<p>[
-<strong>Confusion matrix of the training data for the ‘Decision Tree’ model</strong>]https://user-images.githubusercontent.com/112973615/202884881-05cffee9-e597-47a8-a14c-8fbe7012943d.png
-“Tall image”){#fig:tall-image height=2in}</p>
-<p>[
-<strong>Confusion matrix of the training data for the ‘Decision Tree’ model</strong>]
-“Tall image”){#fig:tall-image height=2in}</p>
+<div id="fig:tall-image" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973615/202884881-05cffee9-e597-47a8-a14c-8fbe7012943d.png%20%22Tall%20image%22" style="height:2in" alt="Figure 12: Confusion matrix of the training data for the ‘Decision Tree’ model" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Confusion matrix of the training data for the ‘Decision Tree’ model</strong></figcaption>
+</figure>
+</div>
+<div id="fig:tall-image" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973532/202885651-3e207c19-5988-466a-a2fe-6eb6f89292f0.png%20%22Tall%20image%22" style="height:2in" alt="Figure 13: Confusion matrix of the training data for the ‘Decision Tree’ model" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>Confusion matrix of the training data for the ‘Decision Tree’ model</strong></figcaption>
+</figure>
+</div>
 <h3 id="random-forest">2. Random Forest</h3>
 <div style="text-align: justify">
 To avoid the problem of overfitting, we have also tried to apply the ‘Random Forest’ classifier. A random forest is a meta-estimator that fits several decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The parameters used for building our model are listed below:
 </div>
-• Number of random features = 6
-• Tress = 10
-• Portions of samples per tree = 0.6
-• Maximum tree depth = 17
+<p>• Number of random features = 6</p>
+<p>• Trees = 10</p>
+<p>• Portions of samples per tree = 0.6</p>
+<p>• Maximum tree depth = 17</p>
 <div style="text-align: justify">
 The accuracy obtained by the model using the numbers mentioned above was around 64 %. Values of these parameters were changed to default values (default of the package: DecisionTree.jl), and then the new model was generated and tested. With the default values, the achieved accuracy was around 66 %. The confusion matrix obtained from this model is shown in Figure 14.
 </div>
-<h3 id="discussions">Discussions:</h3>
+<div id="fig:tall-image" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973532/202885963-438b0d45-441e-4f09-bcaf-96d00dcd4ca6.png%20%22Tall%20image%22" style="height:2in" alt="Figure 14: Confusion matrix of full dataset for the ‘Random Forest’ model" /><figcaption aria-hidden="true"><span>Figure 14:</span> <strong>Confusion matrix of full dataset for the ‘Random Forest’ model</strong></figcaption>
+</figure>
+</div>
+<div style="text-align: center">
+<strong>Table 3. Summary of results of predictive modeling</strong>
+</div>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Models</th>
+<th style="text-align: center;">Training data</th>
+<th style="text-align: center;">Accuracy On Training data</th>
+<th style="text-align: center;">Accuracy On Full dataset</th>
+<th style="text-align: center;">Accuracy On Unseen data</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Decision Tree</td>
+<td style="text-align: center;">60 %</td>
+<td style="text-align: center;">82 %</td>
+<td style="text-align: center;">67 %</td>
+<td style="text-align: center;">45 %</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Random Forest</td>
+<td style="text-align: center;">60 %</td>
+<td style="text-align: center;">76 %</td>
+<td style="text-align: center;">65 %</td>
+<td style="text-align: center;">49 %</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Regression</td>
+<td style="text-align: center;">– %</td>
+<td style="text-align: center;">– %</td>
+<td style="text-align: center;">– %</td>
+<td style="text-align: center;">– %</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1-D CNN</td>
+<td style="text-align: center;">– %</td>
+<td style="text-align: center;">– %</td>
+<td style="text-align: center;">– %</td>
+<td style="text-align: center;">– %</td>
+</tr>
+</tbody>
+</table>
+<h3 id="discussions">Discussions</h3>
 <div style="text-align: justify">
 As mentioned, the data is classified into three (3) different labels/classes. However, the amount of data samples for the three classes is not the same. For example, class 3 represents only about 7.5% of the entire dataset, while class 1 is approximately 50%. The accuracy of predictive models is linked to the sample size of each class. The imbalanced dataset is causing the models to learn more and be biased towards the dominant classes causing higher accuracy of prediction of these classes.
 </div>
