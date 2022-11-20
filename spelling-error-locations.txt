@@ -13,12 +13,10 @@ content/01.Intro.md:6:xlsx
 content/01.Intro.md:8:GPR
 content/01.Intro.md:8:GPR
 content/01.Intro.md:8:GPR
-content/01.Intro.md:8:TGround
 content/01.Intro.md:10:delamination
 content/01.Intro.md:10:GPR
 content/01.Intro.md:10:radargram
 content/01.Intro.md:10:rebars
-content/01.Intro.md:10:TThe
 content/02.Plan.md:2:delamination
 content/02.Plan.md:2:delamination
 content/02.Plan.md:2:delamination
