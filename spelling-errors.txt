@@ -1,7 +1,7 @@
 Abdelrahman
 Aziz
 Chirayu
-Convolutional
+convolutional
 Dataset
 datasets
 DecisionTree
@@ -17,6 +17,7 @@ ishfaqa
 jcastr
 jl
 Kothari
+Maxpool
 nano
 NDE
 oaa
@@ -25,8 +26,11 @@ PCA
 radargram
 rebar
 rebars
+Relu
 Scheers
 SDNET
+Softmax
+Tanh
 TGround
 TThe
 Wideband
