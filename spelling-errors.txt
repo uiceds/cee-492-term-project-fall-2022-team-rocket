@@ -23,10 +23,11 @@ NDE
 oaa
 overfitting
 PCA
+predicitve
 radargram
 rebar
 rebars
-regresion
+Regresion
 Relu
 RMSE
 Scheers

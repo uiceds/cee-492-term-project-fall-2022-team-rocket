@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/56fa8a7c240130aca1c17ca355b2c6c812f0f1fc/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/56fa8a7c240130aca1c17ca355b2c6c812f0f1fc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/56fa8a7c240130aca1c17ca355b2c6c812f0f1fc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8fe6d8430ee879063a8fb888ae6ffb486a072824/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8fe6d8430ee879063a8fb888ae6ffb486a072824/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8fe6d8430ee879063a8fb888ae6ffb486a072824/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -304,7 +304,9 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 
 
 ### Discussions
-<div style="text-align: justify">As mentioned, the data is classified into three (3) different labels/classes. However, the amount of data samples for the three classes is not the same. For example, class 3 represents only about 7.5% of the entire dataset, while class 1 is approximately 50%. The accuracy of predictive models is linked to the sample size of each class. An imbalanced dataset may cause predictive models to be biased towards learning more about the dominant classes causing higher accuracy of prediction of these classes. Moreover further improvement in CNN model by optimizing the model parameters and layers is required. </div>
+<div style="text-align: justify">As mentioned, the data is classified into three (3) different labels/classes. However, the amount of data samples for the three classes is not the same. For example, class 3 represents only about 7.5% of the entire dataset, while class 1 is approximately 50%. 
+Table 3 provides a accuracy/performance based summary of the effectiveness of each of the studied predicitve models.The accuracy of predictive models is linked to the sample size of each class. An imbalanced dataset may cause predictive models to be biased towards learning more about the dominant classes causing higher accuracy of prediction of these classes. Moreover further improvement in CNN model by optimizing the model parameters and layers is required.</div>
+
 
 <div style="text-align: center">**Table 3. Summary of results of predictive modeling (accuracy on Regresion is based on RMSE)**</div>
 | Models | Training data | Accuracy On Training data | Accuracy On Full dataset | Accuracy On Unseen data |

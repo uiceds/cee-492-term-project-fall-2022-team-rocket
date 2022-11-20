@@ -114,10 +114,11 @@ content/04.PredicMod.md:54:convolutional
 content/04.PredicMod.md:54:Relu
 content/04.PredicMod.md:54:Tanh
 content/04.PredicMod.md:62:dataset
-content/04.PredicMod.md:62:dataset
-content/04.PredicMod.md:64:Regresion
-content/04.PredicMod.md:64:RMSE
-content/04.PredicMod.md:65:dataset
+content/04.PredicMod.md:63:dataset
+content/04.PredicMod.md:63:predicitve
+content/04.PredicMod.md:66:Regresion
+content/04.PredicMod.md:66:RMSE
+content/04.PredicMod.md:67:dataset
 content/05.References.md:3:Dataset
 content/05.References.md:3:Dorafshan
 content/05.References.md:3:Ichi
