@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-30'
+date-meta: '2022-11-20'
 author-meta:
 - Ishfaq Aziz
 - Jesus Castro
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="og:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="twitter:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
-  <meta name="dc.date" content="2022-10-30" />
-  <meta name="citation_publication_date" content="2022-10-30" />
+  <meta name="dc.date" content="2022-11-20" />
+  <meta name="citation_publication_date" content="2022-11-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/dc65e278e0fa2f6e7848d987f4514a3d02222bdb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/dc65e278e0fa2f6e7848d987f4514a3d02222bdb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/dc65e278e0fa2f6e7848d987f4514a3d02222bdb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9fc0d107576e527d19e830c1fd417bc692f945db/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9fc0d107576e527d19e830c1fd417bc692f945db/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/9fc0d107576e527d19e830c1fd417bc692f945db/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -245,10 +245,43 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 
 ## Predictive Modeling
 
-<div style="text-align: justify">Based on the exploratory data analysis it can be concluded that the differentiation of the classes is challenging. The analytical approach to determining key features for distinguishing different classes is not conclusive and overall, the data delineation is not observed. Hence, Convolutional Neural Network (CNN) will be used to classify the delamination into three categories. The dataset will be divided into three parts with approximately 60 % of the data used for training, 20 % for validation and 20 % for testing. The raw A-scans will be given as input to the CNN network and will be trained for the expected outcomes in terms of different delamination classes. </div> 
+<div style="text-align: justify">Based on the exploratory data analysis it can be concluded that the differentiation of the classes is challenging. The analytical approach to determining key features for distinguishing different classes is not conclusive and overall, the data delineation is not observed. Hence, four different types of models including the Convolutional Neural Network (CNN) were used to classify the delamination into three categories. The dataset was divided into training and testing data. </div> 
 
-<div style="text-align: justify">Furthermore, the input parameters from our exploratory data analysis (maximum amplitude in time and frequency domain, PCA modes, etc.) will be used to create a machine-learning model for the prediction of the delamination category of the A-scan taken by GPR. Both models will be compared with each other in terms of accuracy and precision.</div>
+<div style="text-align: justify">The four models used in the preliminary predictive modeling are ‘Decision Tree’, ‘Random Forest’, ‘Regression’, and ‘1-D Convolutional Neural Network’. The explanations of each of these models and the corresponding results are discussed below.  </div>
 
+### 1. Decision Tree
+<div style="text-align: justify">The first predictive model applied was the ‘Decision tree’ model, which is a non-parametric supervised learning method that can be used for classification or regression. Decision trees learn from data to approximate a sine curve with a set of if-then-else decision rules. The deeper the tree, the more complex the decision rules, and the fitter the model. </div> 
+
+<div style="text-align: justify">Decision tree in machine learning has the advantage of being simple to understand, interpret and visualize. The model can be visually represented by a flowchart of decisions. It can also implicitly perform variable screening or feature selection to determine the most dominant variables that can govern the classification more than the others. However, it also comes with some limitations. For instance, decision tree learners can create over-complex trees that do not generalize the data well, causing data overfitting. In addition, the predictions of decision trees are neither smooth nor continuous, so they do not perform well with extrapolation. </div> 
+
+<div style="text-align: justify">The decision tree classifier was created using 3 labels -one for each class- and 12 variables. These variables are the 10 first PCA modes of the data, the dominant FFT frequency, and its corresponding amplitude. The first 10 PCA modes were selected as they cover more than 90 % of the variance. Then, leaves having more than 90% combined purity were merged before applying the model to avoid overfitting. About 60 % of the data from each class was used for training the model. Then, the model was tested on the complete dataset.  </div> 
+
+<div style="text-align: justify">The summary of the results is shown in Table 3. The accuracy achieved on training data for classes 1, 2, and 3 were around 86%, 83%, and 46%, respectively. This resulted in an overall accuracy of about 82% on the training data. Due to the lower number of Class 3 data points, the model prediction accuracy is lower for class 3 than for the other two classes. The confusion matrices achieved by using this model are shown in Figure 12 and Figure 13. When applied to the complete dataset, the achieved accuracy was around 67%, which means that the accuracy of the unseen 40% of data was about 45%. </div> 
+
+![
+**Confusion matrix of the training data for the ‘Decision Tree’ model**
+]https://user-images.githubusercontent.com/112973615/202884881-05cffee9-e597-47a8-a14c-8fbe7012943d.png
+"Tall image"){#fig:tall-image height=2in}
+
+![
+**Confusion matrix of the training data for the ‘Decision Tree’ model**
+]
+"Tall image"){#fig:tall-image height=2in}
+
+### 2. Random Forest
+<div style="text-align: justify">To avoid the problem of overfitting, we have also tried to apply the ‘Random Forest’ classifier. A random forest is a meta-estimator that fits several decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The parameters used for building our model are listed below: </div> 
+•	Number of random features = 6
+•	Tress = 10
+•	Portions of samples per tree = 0.6
+•	Maximum tree depth = 17
+<div style="text-align: justify">The accuracy obtained by the model using the numbers mentioned above was around 64 %. Values of these parameters were changed to default values (default of the package: DecisionTree.jl), and then the new model was generated and tested. With the default values, the achieved accuracy was around 66 %. The confusion matrix obtained from this model is shown in Figure 14. </div> 
+
+
+
+
+
+### Discussions:
+<div style="text-align: justify">As mentioned, the data is classified into three (3) different labels/classes. However, the amount of data samples for the three classes is not the same. For example, class 3 represents only about 7.5% of the entire dataset, while class 1 is approximately 50%. The accuracy of predictive models is linked to the sample size of each class. The imbalanced dataset is causing the models to learn more and be biased towards the dominant classes causing higher accuracy of prediction of these classes. </div>
 
 
 ## References 
