@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b6cfb8931f378c98abc1683c6819a58353cdf718/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b6cfb8931f378c98abc1683c6819a58353cdf718/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b6cfb8931f378c98abc1683c6819a58353cdf718/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3fbeb5c9ac3baf9565f5e9bf76a10fae273c0ae4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3fbeb5c9ac3baf9565f5e9bf76a10fae273c0ae4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3fbeb5c9ac3baf9565f5e9bf76a10fae273c0ae4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -289,13 +289,13 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 | Decision Tree | 60 % | 82 % | 67 % | 45 % |
 | Random Forest | 60 % | 76 % | 65 % | 49 % |
 | Regression | -- % | -- % | -- % | -- % |
-| 1-D CNN |	-- % | -- % | -- % | -- % |		
+| 1-D CNN |	60% | 52 % | -- % | -- % |		
 
 ### 3. Regression
 
 
-### 2. Convolutional Neural Network
-<div style="text-align: justify">The Convolutional Neural Network (CNN) was created for the GPR data at different locations. Out of the 16000 signals, 6000 random signals were used to train the model. Each signal has 260 data points. The 1D CNN is composed of several layers. The first layer was a convolution layer with a filter size = 5 with 1 input channel to 8 output channels of training data. The padding was of size= 2 and Relu was the activation function. The next layer was a Maxpool layer of size= 4. The third layer is another convolutional layer with a filter of a size = 5 and padding of size= 2 with 8 channels to 3 channels. The fourth layer with a Maxpool layer of size =5 and the fifth layer is a dense layer of size (39,3) based on the input size and the number of channels. Finally, a Softmax layer is applied to discriminate between different classes.</div>
+### 4. Convolutional Neural Network
+<div style="text-align: justify">The Convolutional Neural Network (CNN) was created for the GPR data at different locations. Out of the approximately 16000 signals, around 9800 random signals were used to train the model. Each signal has 260 data points. The 1D CNN is composed of several layers. The first layer was a convolution layer with a filter size = 5 with 1 input channel to 8 output channels of training data. The padding was of size= 2 and Relu was the activation function. The next layer was a Maxpool layer of size= 4. The third layer is another convolutional layer with a filter of a size = 5 and padding of size= 2 with 8 channels to 3 channels. The fourth layer with a Maxpool layer of size =5 and the fifth layer is a dense layer of size (39,3) based on the input size and the number of channels. Finally, a Softmax layer is applied to discriminate between different classes.</div>
 
 <div style="text-align: justify">Figure 16 show some diagnostics of our model training, include loss and accuracy curves as a function of gradient descent step and a confusion matrix of the final results. The accuracy of 52% is achieved based on the convolutional neural network. As observed, after certain epochs the accuracy becomes constant and does not improve. The model was further executed for different channels as well as different activation functions like Relu, Tanh, and its combination. However, the output was close to 52% accuracy with no improvement. Further modification and improvements in the CNN model are required.</div>
 
