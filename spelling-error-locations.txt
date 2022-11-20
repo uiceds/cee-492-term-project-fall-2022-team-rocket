@@ -97,10 +97,12 @@ content/04.PredicMod.md:12:PCA
 content/04.PredicMod.md:14:dataset
 content/04.PredicMod.md:27:dataset
 content/04.PredicMod.md:27:overfitting
-content/04.PredicMod.md:32:DecisionTree
-content/04.PredicMod.md:32:jl
-content/04.PredicMod.md:39:dataset
-content/04.PredicMod.md:39:dataset
+content/04.PredicMod.md:37:DecisionTree
+content/04.PredicMod.md:37:jl
+content/04.PredicMod.md:40:dataset
+content/04.PredicMod.md:45:dataset
+content/04.PredicMod.md:55:dataset
+content/04.PredicMod.md:55:dataset
 content/05.References.md:3:Dataset
 content/05.References.md:3:Dorafshan
 content/05.References.md:3:Ichi
