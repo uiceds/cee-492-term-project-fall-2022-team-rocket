@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/686cff35469554a6601685ac8b7b4727f7c832cb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/686cff35469554a6601685ac8b7b4727f7c832cb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/686cff35469554a6601685ac8b7b4727f7c832cb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/a4004caa4f1effb7b3e76acd92e23b6ab43801c5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/a4004caa4f1effb7b3e76acd92e23b6ab43801c5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/a4004caa4f1effb7b3e76acd92e23b6ab43801c5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -312,7 +312,7 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 | Decision Tree | 60 % | 82 % | 67 % | 45 % |
 | Random Forest | 60 % | 76 % | 65 % | 49 % |
 | Regression | 60 % | -- % | -- % | -- % |
-| 1-D CNN |	60% | 52 % | -- % | -- % |		
+| 1-D CNN |	60% | 52 % | 51.4 % | Na |		
 
 ## References 
 
