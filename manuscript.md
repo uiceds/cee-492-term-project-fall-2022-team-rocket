@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/263ca3a3fa4a6b5adf16689af2f4958f5557b454/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/263ca3a3fa4a6b5adf16689af2f4958f5557b454/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/263ca3a3fa4a6b5adf16689af2f4958f5557b454/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/d34bc4571ce9ff5847d89852b40ade8524ae9543/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/d34bc4571ce9ff5847d89852b40ade8524ae9543/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/d34bc4571ce9ff5847d89852b40ade8524ae9543/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -243,7 +243,7 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 ](https://user-images.githubusercontent.com/112973477/198889098-bd49b954-add9-4b08-bf6d-740e00b753ae.png "Tall image"){#fig:tall-image height=2in}
 
 
-## Predictive Modeling
+## Predictive Modeling {.page_break_before}
 
 <div style="text-align: justify">Based on the exploratory data analysis it can be concluded that the differentiation of the classes is challenging. The analytical approach to determining key features for distinguishing different classes is not conclusive and overall, the data delineation is not observed. Hence, four different types of models including the Convolutional Neural Network (CNN) were used to classify the delamination into three categories. The dataset was divided into training and testing data. </div> 
 
@@ -263,7 +263,7 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 ](https://user-images.githubusercontent.com/112973532/202886315-d628336a-e1a5-4879-831e-92af119b0257.png "Tall image"){#fig:tall-image height=2in}
 
 ![
-**Confusion matrix of the training data for the ‘Decision Tree’ model**
+**Confusion matrix of full dataset for the ‘Decision Tree’ model**
 ](https://user-images.githubusercontent.com/112973532/202886343-5f78d819-735d-4796-a8dc-158e00ab9dfe.png "Tall image"){#fig:tall-image height=2in}
 
 ### 2. Random Forest

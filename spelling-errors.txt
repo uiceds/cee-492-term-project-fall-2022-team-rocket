@@ -2,11 +2,11 @@ Abdelrahman
 Aziz
 Chirayu
 Convolutional
-dataset
+Dataset
 datasets
 DecisionTree
 delaminated
-Delamination
+delamination
 Dorafshan
 FFT
 GPR
