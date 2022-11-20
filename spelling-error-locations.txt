@@ -101,7 +101,7 @@ content/04.PredicMod.md:25:overfitting
 content/04.PredicMod.md:35:DecisionTree
 content/04.PredicMod.md:35:jl
 content/04.PredicMod.md:38:dataset
-content/04.PredicMod.md:42:dataset
+content/04.PredicMod.md:44:datapoints
 content/04.PredicMod.md:52:Convolutional
 content/04.PredicMod.md:53:convolutional
 content/04.PredicMod.md:53:Convolutional
@@ -115,6 +115,7 @@ content/04.PredicMod.md:55:Relu
 content/04.PredicMod.md:55:Tanh
 content/04.PredicMod.md:62:dataset
 content/04.PredicMod.md:62:dataset
+content/04.PredicMod.md:65:dataset
 content/05.References.md:3:Dataset
 content/05.References.md:3:Dorafshan
 content/05.References.md:3:Ichi
