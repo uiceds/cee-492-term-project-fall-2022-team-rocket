@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b76680a117440d8c2e0713bc81d03a0210a719d6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b76680a117440d8c2e0713bc81d03a0210a719d6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b76680a117440d8c2e0713bc81d03a0210a719d6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/263ca3a3fa4a6b5adf16689af2f4958f5557b454/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/263ca3a3fa4a6b5adf16689af2f4958f5557b454/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/263ca3a3fa4a6b5adf16689af2f4958f5557b454/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -260,13 +260,11 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 
 ![
 **Confusion matrix of the training data for the ‘Decision Tree’ model**
-](https://user-images.githubusercontent.com/112973615/202884881-05cffee9-e597-47a8-a14c-8fbe7012943d.png
-"Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973532/202886315-d628336a-e1a5-4879-831e-92af119b0257.png "Tall image"){#fig:tall-image height=2in}
 
 ![
 **Confusion matrix of the training data for the ‘Decision Tree’ model**
-](https://user-images.githubusercontent.com/112973532/202885651-3e207c19-5988-466a-a2fe-6eb6f89292f0.png
-"Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973532/202886343-5f78d819-735d-4796-a8dc-158e00ab9dfe.png "Tall image"){#fig:tall-image height=2in}
 
 ### 2. Random Forest
 <div style="text-align: justify">To avoid the problem of overfitting, we have also tried to apply the ‘Random Forest’ classifier. A random forest is a meta-estimator that fits several decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The parameters used for building our model are listed below: </div>
@@ -283,8 +281,7 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
 
 ![
 **Confusion matrix of full dataset for the ‘Random Forest’ model**
-](https://user-images.githubusercontent.com/112973532/202885963-438b0d45-441e-4f09-bcaf-96d00dcd4ca6.png
-"Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973532/202886385-56bd9337-ff2b-44c6-afaf-c12196b0e5ec.png "Tall image"){#fig:tall-image height=2in}
 
 <div style="text-align: center">**Table 3. Summary of results of predictive modeling**</div>
 | Models | Training data | Accuracy On Training data | Accuracy On Full dataset | Accuracy On Unseen data |
