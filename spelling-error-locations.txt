@@ -104,7 +104,7 @@ content/04.PredicMod.md:38:dataset
 content/04.PredicMod.md:42:dataset
 content/04.PredicMod.md:52:Convolutional
 content/04.PredicMod.md:53:convolutional
-content/04.PredicMod.md:53:convolutional
+content/04.PredicMod.md:53:Convolutional
 content/04.PredicMod.md:53:GPR
 content/04.PredicMod.md:53:Maxpool
 content/04.PredicMod.md:53:Maxpool
@@ -113,8 +113,8 @@ content/04.PredicMod.md:53:Softmax
 content/04.PredicMod.md:55:convolutional
 content/04.PredicMod.md:55:Relu
 content/04.PredicMod.md:55:Tanh
-content/04.PredicMod.md:60:dataset
-content/04.PredicMod.md:60:dataset
+content/04.PredicMod.md:62:dataset
+content/04.PredicMod.md:62:dataset
 content/05.References.md:3:Dataset
 content/05.References.md:3:Dorafshan
 content/05.References.md:3:Ichi
