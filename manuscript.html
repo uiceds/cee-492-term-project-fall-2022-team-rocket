@@ -8,7 +8,7 @@
   <meta name="author" content="Jesus Castro" />
   <meta name="author" content="Chirayu Kothari" />
   <meta name="author" content="Omar Abdelrahman" />
-  <meta name="dcterms.date" content="2022-11-20" />
+  <meta name="dcterms.date" content="2022-12-01" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning</title>
   <style>
@@ -50,8 +50,8 @@
   <meta name="citation_title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="og:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="twitter:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
-  <meta name="dc.date" content="2022-11-20" />
-  <meta name="citation_publication_date" content="2022-11-20" />
+  <meta name="dc.date" content="2022-12-01" />
+  <meta name="citation_publication_date" content="2022-12-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/7d6b7803372c0399b6da09048f2c22c0d2f66eda/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/7d6b7803372c0399b6da09048f2c22c0d2f66eda/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/7d6b7803372c0399b6da09048f2c22c0d2f66eda/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/892ee165b5748754eeee0c8e0c7c179d6b6de69f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/892ee165b5748754eeee0c8e0c7c179d6b6de69f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/892ee165b5748754eeee0c8e0c7c179d6b6de69f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -367,11 +367,11 @@ Ideally, regression model results should match actual observations. As observed 
 The Convolutional Neural Network (CNN) was created for the GPR data at different locations. Out of the approximately 16000 signals, around 9800 random signals were used to train the model. Each signal has 260 data points. The 1D CNN is composed of several layers. The first layer was a convolution layer with a filter size = 5 with 1 input channel to 8 output channels of training data. The padding was of size= 2 and Relu was the activation function. The next layer was a Maxpool layer of size= 4. The third layer is another convolutional layer with a filter of a size = 5 and padding of size= 2 with 8 channels to 3 channels. The fourth layer with a Maxpool layer of size =5 and the fifth layer is a dense layer of size (39,3) based on the input size and the number of channels. Finally, a Softmax layer is applied to discriminate between different classes. The batch size was 10 and learning rate was 0.001.
 </div>
 <div style="text-align: justify">
-Figure 16 show some diagnostics of our model training, include loss and accuracy curves as a function of gradient descent step and a confusion matrix of the final results. The accuracy of 52% is achieved based on the convolutional neural network. As observed, after certain epochs the accuracy becomes constant and does not improve. The model was further executed for different channels as well as different activation functions like Relu, Tanh, and its combination. However, the output was close to 52% accuracy with no improvement. Further modification and improvements in the CNN model are required.
+Figure 16 show some diagnostics of our model training, include loss and accuracy curves as a function of gradient descent step and a confusion matrix of the final results. The accuracy of 52% is achieved based on the convolutional neural network. As observed in the figure , the accuracy becomes constant after certain epochs and does not improve. The model was further executed for different channels as well as different activation functions like Relu, Tanh, and its combination. However, the output was close to 52% accuracy with no improvement. The rest 40% of the total data was tested based on the CNN model. The accuracy was again 52% and the correlation matrix for the testing data was similar to that of the correlation matrix for the training data(scales on the color bar are different as the number of datasets for training and testing data is different) Further modification and improvements in the CNN model are required.
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973532/202886385-56bd9337-ff2b-44c6-afaf-c12196b0e5ec.png" style="height:2in" alt="Figure 16: Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix" /><figcaption aria-hidden="true"><span>Figure 16:</span> <strong>Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112449929/205139444-7675a88c-fd70-4d88-b84c-4310f9156efc.png" style="height:2in" alt="Figure 16: Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix for both the training data and the testing data" /><figcaption aria-hidden="true"><span>Figure 16:</span> <strong>Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix for both the training data and the testing data</strong></figcaption>
 </figure>
 </div>
 <h3 id="discussions">Discussions</h3>

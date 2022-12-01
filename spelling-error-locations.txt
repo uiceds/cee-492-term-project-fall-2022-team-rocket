@@ -111,6 +111,7 @@ content/04.PredicMod.md:52:Maxpool
 content/04.PredicMod.md:52:Relu
 content/04.PredicMod.md:52:Softmax
 content/04.PredicMod.md:54:convolutional
+content/04.PredicMod.md:54:datasets
 content/04.PredicMod.md:54:Relu
 content/04.PredicMod.md:54:Tanh
 content/04.PredicMod.md:62:dataset
