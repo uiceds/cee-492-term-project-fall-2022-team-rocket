@@ -1,7 +1,7 @@
 Abdelrahman
 Aziz
 Chirayu
-convolutional
+Convolutional
 dataset
 datasets
 DecisionTree
@@ -29,12 +29,11 @@ prelabelled
 radargram
 rebar
 rebars
-Regresion
+regresion
 Relu
 Scheers
 SDNET
 Softmax
 Tanh
-unables
 Wideband
 xlsx
