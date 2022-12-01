@@ -2,11 +2,11 @@ Abdelrahman
 Aziz
 Chirayu
 convolutional
-Dataset
+dataset
 datasets
 DecisionTree
 delaminated
-delamination
+Delamination
 Dorafshan
 FFT
 GPR
@@ -25,10 +25,11 @@ oaa
 overfitting
 PCA
 predicitve
+prelabelled
 radargram
 rebar
 rebars
-regresion
+Regresion
 Relu
 Scheers
 SDNET
