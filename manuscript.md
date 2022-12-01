@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/656f717c6c09b92c30e2c652bd30a76f50601a97/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/656f717c6c09b92c30e2c652bd30a76f50601a97/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/656f717c6c09b92c30e2c652bd30a76f50601a97/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2544673b144963ff53dd71651ee2d14d8a97703a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2544673b144963ff53dd71651ee2d14d8a97703a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2544673b144963ff53dd71651ee2d14d8a97703a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -299,10 +299,8 @@ manubot-clear-requests-cache: false
 ](https://user-images.githubusercontent.com/112449929/205139444-7675a88c-fd70-4d88-b84c-4310f9156efc.png "Tall image"){#fig:tall-image height=4in}
 
 
-### Discussions
-<div style="text-align: justify">As mentioned, the data is classified into three (3) different labels/classes. However, the amount of data samples for the three classes is not the same. For example, class 3 represents only about 7.5% of the entire dataset, while class 1 is approximately 50%. 
-Table 3 provides a accuracy/performance based summary of the effectiveness of each of the studied predicitve models.The accuracy of predictive models is linked to the sample size of each class. An imbalanced dataset may cause predictive models to be biased towards learning more about the dominant classes causing higher accuracy of prediction of these classes. Moreover further improvement in CNN model by optimizing the model parameters and layers is required. Regresion model showed the lowest accuracy from the predictiv Decision Tree and Random Forest models provided relatively high accuracy levels on training data (above 75%), 1-D CNN model provided the highest accuracy on unseen data with 52%.</div>
-
+### Discussions {.page_break_before}
+<div style="text-align: justify">As mentioned, the data is classified into three (3) different labels/classes. However, the amount of data samples for the three classes is not the same. For example, class 3 represents only about 7.5% of the entire dataset, while class 1 is approximately 50%. Table 3 provides an accuracy-based summary of the effectiveness of each of the studied predictive models. The accuracy of predictive models is linked to the sample size of each class. An imbalanced dataset may cause predictive models to be biased towards learning more about the dominant classes causing higher accuracy of prediction of these classes. Moreover, further improvement in CNN model by optimizing the model parameters and layers is required. The regression model’s accuracy showed the lowest accuracy.  Decision Tree and Random Forest models provided relatively high accuracy levels on training data (above 75%), 1-D CNN model provided the highest accuracy on unseen data with 52%.</div>
 
 <div style="text-align: center">**Table 3. Summary of results of predictive modeling**</div>
 | Models | Training data | Accuracy On Training data | Accuracy On Unseen data |
@@ -311,6 +309,14 @@ Table 3 provides a accuracy/performance based summary of the effectiveness of ea
 | Random Forest | 60 % | 76 % | 49 % |
 | Regression | 60 % | 33 % | 34 % |
 | 1-D CNN |	60% | 52 % |52 % |		
+
+<div style="text-align: justify">Based on the accuracy values of the models created in this study, we can tell that these models need to be improved to reach satisfactory predictions. One of the future recommendations to improve the accuracy of the models is to train the models on larger datasets. This can be done by using other datasets that were obtained by scans performed on other bridge decks in the same project. Training the models on larger datasets can possibly reduce the effect of overfitting and can make it perform better when tested on unseen data. Another strategy is to increase the number of parameters used in the model as independent variables, for example, using a higher number of PCA modes. An example of the first strategy was tried out on two of the models (decision tree and random forest). Details of these trials can be found in the supplementary documents.</div>
+
+***Modeling on a larger dataset:***
+<div style="text-align: justify">As mentioned earlier, only one .xlsx file from the data source (that contains 16,383 A-scans) was used for all our analysis and predictive, and modeling. As an attempt to execute our same method on a larger dataset, we have used 30 files that had 218,626 A-scans to build a ‘Decision Tree’ and a ‘Random Forest’ model. Of the total A-scans, approximately 71 % are from class 1, 23 % from class 2, and 6 % from class 3. Instead of the previously used 12 features, 22 features were used now which include the first 20 PCA modes (covering 97 % variance), dominant FFT Frequency, and corresponding amplitude.</div>
+
+<div style="text-align: justify">The default values of settings of the ‘Decision Tree’ package were used for modeling. The results are shown in Table 1, figure 1, and figure 2. It can be observed that both the models overfit the training data and the models have lower accuracy on the unseen data. However, the ‘Random Forest’ model performs better on the test data. The dataset is highly dominated by the class-1 (>70 %) data for which the models tend to be biased towards class-1. Similarly, the number of class 3 data is very small (5.6 %) for which the error in predicting unseen class 3 signals is very high.</div>
+
 
 ## References 
 
