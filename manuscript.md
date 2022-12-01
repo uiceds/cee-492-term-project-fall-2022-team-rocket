@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/56c54c57fe9b4c83a8098f232686af6db7744f72/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/56c54c57fe9b4c83a8098f232686af6db7744f72/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/56c54c57fe9b4c83a8098f232686af6db7744f72/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/0cbdfca3fca5023fd1794ea72c02c6c479f30b16/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/0cbdfca3fca5023fd1794ea72c02c6c479f30b16/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/0cbdfca3fca5023fd1794ea72c02c6c479f30b16/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -114,7 +114,7 @@ manubot-clear-requests-cache: false
 <div style="text-align: justify">The data collected from the GPR are usually presented in two different formats, A-scan, and B-scan. Most modern devices can present both formats simultaneously. The A-scan is the raw energy signal received by the antenna shown as a function of time and signal strength (amplitude). The received signal in Figure 1a is an example of an A-scan. The B-scan, also known as radargram, is constructed from the sequence of multiple A-scans related to the antenna's position, as shown in Figure 1b, where the depth is represented on the y-axis, and the survey distance is shown on the x-axis orthogonal to the y-axis. The amplitude of the received signal is often shown as a color-coded intensity plot, often in grey, as shown in Figure 1c. B-scans are usually visually inspected to identify and locate any delamination within the concrete or to locate the reinforcement rebars.</div>
 
 ![
-**a) Single wave signal (A-scan). b) Collection of signals across a distance along the surface. c) Color intensity plot of (b) (B-scan).**
+**a) Single wave signal (A-scan). b) Collection of signals across a distance along the surface. c) Color intensity plot of (b) (B-scan). [2]**
 ](https://user-images.githubusercontent.com/112973477/191904010-0450a119-488a-4a82-87aa-05a5d74f23d9.png "Wide image"){#fig:wide-image}
 
 <div style="text-align: justify">Usually, the GPR is used to detect delamination defects in the pavements. Delamination defects can be under or over the rebars. It is very difficult to observe the defects which are under the rebars. Here, we analyzed a GPR data set that was prelabelled for three classes containing no defects and delamination over the rebars and under the rebars. Models like decision tree, random forest, regression, and convolutional neural networks were used to predict the classes based on the A-scans. The input of the model was either the raw scans, principal components, or the dominant frequency and amplitude in the FFT domain. </div>
@@ -133,7 +133,7 @@ manubot-clear-requests-cache: false
 ### Preliminary Analysis
 
 
-<div style="text-align: justify">The dataset consists of 16,384 GPR scans that were taken at different locations along the bridge. Each scan has a total of 512 points representing a scan time of 12 ns. The scans are categorized into three main classes: Class 1 – no delamination, class 2 – delamination above the top rebar, and class 3 – delamination below the top rebar, representing 8427, 6812, and 1144 scans, respectively, as shown in Table 1. Other properties of the GPR scans are summarized in Table 2. </div>
+<div style="text-align: justify">The dataset consists of 16,384 GPR scans taken at different locations along the bridge. Each scan has a total of 512 points representing a scan time of 12 ns. The scans are categorized into class 1 – no delamination, class 2 – delamination above the top rebar, and class 3 – delamination below the top rebar, representing 8427, 6812, and 1144 scans, respectively, as shown in Table 1. Other properties of the GPR scans are summarized in Table 2. </div>
 
 
 <div style="text-align: center">**Table 1. Summary of classes/labels of the dataset**</div>
@@ -155,14 +155,14 @@ manubot-clear-requests-cache: false
 | Sample rate (calculated) | 42.67 GHz |
 
 
-<div style="text-align: justify">The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, in order to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings was subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three classes. </div>
+<div style="text-align: justify">The amplitudes of the signals in the dataset were found to have high numerical values. The average amplitude of the whole dataset is around 33,000. So, to make the data more symmetric around the x-axis, the average of the first few nanoseconds of readings was subtracted from the whole dataset, resulting in scans that start with amplitudes close to zero. Figure 2 shows one randomly selected scan from each of the three classes. </div>
 
 ![
 **Randomly selected signals from each of the three classes**
 ](https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png "Tall image"){#fig:tall-image height=2in}
 
 
-<div style="text-align: justify">Based on the reference paper that was used to obtain the data [1] the B-scan, which is a visual representation of a combination of individual scans stitched together, showed that the bottom rebar reflection was detected at around 7 ns. Thus, it was decided that the readings after around 8 ns would not be useful for the purpose of our model and the remaining 4 ns were removed. Also, it was observed that the initial reflection from the top surface of the concrete is detected around 2 ns, so the first 2 ns were also removed from our data. Sample scans from the resulting signal are shown in Figure 3.</div>
+<div style="text-align: justify">Based on the reference paper used to obtain the data [1], the B-scan, a visual representation of a combination of individual scans stitched together, showed that the bottom rebar reflection was detected at around 7 ns. Thus, it was decided that the readings after around 8-ns would not be useful for our model, and the remaining 4 ns were removed. Also, it was observed that the initial reflection from the top surface of the concrete is detected around 2 ns, so the first 2 ns were also removed from our data. Sample scans from the resulting signal are shown in Figure 3.</div>
 
 
 ![
@@ -173,7 +173,7 @@ manubot-clear-requests-cache: false
 
 
 ### Mean Plots
-<div style="text-align: justify">To visually distinguish between the three different classes of data, the mean all scans from each class are plotted in Figure 4. The figure shows that the three means look almost identical to each other, so there is no distinctive feature in the time domain signal that can help assign new signals to any of the three classes. Thus, deeper levels of data analysis are required to identify any distinctive features that can help classify new data.</div>
+<div style="text-align: justify">To visually distinguish between the three different classes of data, the mean of all scans from each class is plotted in Figure 4. The figure shows that the three means look almost identical, so there is no distinctive feature in the time domain signal that can help assign new signals to any of the three classes. Thus, deeper levels of data analysis are required to identify any distinctive features that can help classify new data.</div>
 
 ![
 **The mean of all signals for each class.**
@@ -198,7 +198,7 @@ manubot-clear-requests-cache: false
 **Amplitude vs Frequency Class 1 with no delamination**
 ](https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png "Tall image"){#fig:tall-image height=2in}
 
-<div style="text-align: justify">In Figure 6 it is observed that in the sections where delamination was identified above the top rebar layer, the amplitude peaks were higher in magnitude than the observed peaks in the sections with non-delaminated sections at similar frequencies. On the other hand, the plot corresponding to the amplitudes of sections identified with delamination below the top rebar later (Figure 7.) displays amplitude peaks with magnitudes lower than in Figure 5 and Figure 6.</div>
+<div style="text-align: justify">In Figure 6, it is observed that in the sections where delamination was identified above the top rebar layer, the amplitude peaks were higher in magnitude than the observed peaks in the areas with non-delaminated sections at similar frequencies. On the other hand, the plot corresponding to the amplitudes of sections identified with delamination below the top rebar later (Figure 7.) displays amplitude peaks with magnitudes lower than in Figure 5 and Figure 6.</div>
 
 ![
 **Amplitude vs Frequency Class 2 with delamination above the rebar**
@@ -209,8 +209,7 @@ manubot-clear-requests-cache: false
 **Amplitude vs Frequency Class 3 with delamination below the top rebar**
 ](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Tall image"){#fig:tall-image height=2in}
 
-<div style="text-align: justify">From this data processing approach (FFT), a sound differentiation from the three classes (beyond the observed magnitudes in amplitude at approximately 0.8 GHz) cannot be concluded.
-Furthermore, the maximum amplitude of the FFT data and the frequency corresponding to the maximum amplitude was plotted (Figure 8). It was observed that the maximum amplitude of most of Class 1 and Class 2 was similar. However, some of the FFT spectra in Class 2 had higher amplitude than that of Class 1. Also, some of the FFT spectra in Class 2 had amplitude close to the mean of Class 3. It can potentially be attributed to the labeling of data. </div>
+<div style="text-align: justify">From this data processing approach (FFT), a good differentiation from the three classes (beyond the observed magnitudes in amplitude at approximately 0.8 GHz) cannot be concluded. Furthermore, the maximum amplitude of the FFT data and the frequency corresponding to the maximum amplitude was plotted (Figure 8). It was observed that the maximum amplitude of most of Class 1 and Class 2 was similar. However, some of the FFT spectra in Class 2 had higher amplitude than that of Class 1. Also, some of the FFT spectra in Class 2 had amplitude close to the mean of Class 3. It can be attributed to the labeling of data. </div>
 
 
 ![
@@ -227,12 +226,12 @@ Furthermore, the maximum amplitude of the FFT data and the frequency correspondi
  "Tall image"){#fig:tall-image height=2in}
 
 
-<div style="text-align: justify">It can be easier to separate out Class3 from Class 1 and Class 2 based on the FFT analysis. </div>
+<div style="text-align: justify">It can be easier to separate Class 3 from Class 1 and Class 2 based on the FFT analysis. </div>
 
 
 
 ### Principal Component Analysis
-<div style="text-align: justify">Principal component analysis (PCA) was performed on the dataset to change the basis of the data and improve its interpretability. The number of modes was selected to be 2. The results of the first and second modes of the PCA data of the whole dataset are plotted in Figure 10. Since the number of data points for each class is different, normalizing the number of points might provide a better visual representation of the scatter of data of different classes. So, 1000 random points were selected from each class and then PCA was performed on this sub-dataset. The results of the two modes of this PCA are shown in Figure 11. </div>
+<div style="text-align: justify">Principal component analysis (PCA) was performed on the dataset to change the basis of the data and improve its interpretability. The number of modes was selected to be 2. The results of the first and second modes of the PCA data of the whole dataset are plotted in Figure 10. Since the number of data points for each class is different, normalizing the number of points might provide a better visual representation of the scattering of data in different classes. So, 1000 random points were selected from each class, and then PCA was performed on this sub-dataset. The results of the two modes of this PCA are shown in Figure 11. </div>
 
 ![
 **The PCA data for all the datasets.**
