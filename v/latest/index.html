@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8cbaaf724aea4a12b4ca1013e51417308e7a1112/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8cbaaf724aea4a12b4ca1013e51417308e7a1112/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8cbaaf724aea4a12b4ca1013e51417308e7a1112/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f6ff394df9a82bb4e02b5f32b16ff084862d8397/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f6ff394df9a82bb4e02b5f32b16ff084862d8397/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f6ff394df9a82bb4e02b5f32b16ff084862d8397/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -119,25 +119,28 @@
 </ul>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
 <div style="text-align: justify">
-The data set represents raw signals of Non-Destructive Evaluation (NDE) tests conducted by Ground Penetrating Radar (GPR) which were collected from in-service reinforced concrete bridge decks. The dataset was annotated using three classes in accordance with bridge deck repair: Class 1-No Delamination; Class 2-Delamination (delamination above top bar mat), and Class 3-Delamination (delamination below top bar mat).
+Visual inspection of structures provides valuable information for QC/QA purposes, but its value is proportional to the knowledge and experience of the inspector. Still, visual inspections are limited to the features visible on accessible surfaces. Exploratory investigations (by destructive methods) have been conducted to ensure the internal conditions of structural elements under the assumption that the obtained results represent the conditions of an entire section (or region) in the structure. Then, the need for nondestructive methods arises. Nondestructive methods allow the evaluation of internal conditions without affecting the surface conditions. These methods usually rely on the acoustics and electrical properties of the materials.
 </div>
 <div style="text-align: justify">
-The data will be obtained from https://commons.und.edu/data/19/ [1] which contains annotated dataset for the structural defects. Data is present in the. xlsx format. Each column in the dataset has an approximate length of 512 where the first column represents the time (ns), and the rest of the columns are all amplitudes of GPR signals. Hence, each raw signal (columns) is directly annotated to one of the three possible classes. In addition, some other information like the scan length and the coordinates of each signal scan is also provided.
+<p>Ground Penetrating radar (GPR) is a nondestructive method that relies on the dielectric properties of materials and can be used (in civil engineering practices) to locate steel and internal defects in concrete pavements. GPR is an effective tool for subsurface inspection and quality control on engineering construction projects. The survey method is rapid, nondestructive, and noninvasive. Interpretation of GPR data commonly helps to evaluate and measure different properties of a concrete structure.</p>
 </div>
 <div style="text-align: justify">
-Ground Penetrating Radar (GPR) is an imaging technique that uses wide-band sinusoidal electromagnetic waves, with frequencies ranging from 0.5 to 2 GHz, to produce high-resolution images of the subsurface materials. GPR is an effective tool for subsurface inspection and quality control on engineering construction projects. The survey method is rapid, nondestructive, and noninvasive. Interpretation of GPR data commonly helps to evaluate and measure different properties of a concrete structure.
-</div>
-<div style="text-align: justify">
-The data collected from the GPR are usually presented in two different formats, A-scan and B-scan. Most modern devices have the capability to present both formats simultaneously. The A-scan is the raw signal of energy received by the antenna shown as a function of time and signal strength (amplitude). The received signal in Figure 1a is an example of an A-scan. The B-scan, also known as radargram, is constructed from the sequence of multiple A-scans related to the position of the antenna, as shown in Figure 1b, where the depth is represented on the y-axis and the survey distance is shown on the x-axis orthogonal to the y-axis. The amplitude of the received signal is often shown as a color-coded intensity plot, often in grey, as shown in Figure 1c. B-scans are usually visually inspected to identify and locate any delamination within the concrete or to locate the reinforcement rebars.
+The data collected from the GPR are usually presented in two different formats, A-scan, and B-scan. Most modern devices can present both formats simultaneously. The A-scan is the raw energy signal received by the antenna shown as a function of time and signal strength (amplitude). The received signal in Figure 1a is an example of an A-scan. The B-scan, also known as radargram, is constructed from the sequence of multiple A-scans related to the antenna’s position, as shown in Figure 1b, where the depth is represented on the y-axis, and the survey distance is shown on the x-axis orthogonal to the y-axis. The amplitude of the received signal is often shown as a color-coded intensity plot, often in grey, as shown in Figure 1c. B-scans are usually visually inspected to identify and locate any delamination within the concrete or to locate the reinforcement rebars.
 </div>
 <div id="fig:wide-image" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973477/191904010-0450a119-488a-4a82-87aa-05a5d74f23d9.png" alt="Figure 1: a) Single wave signal (A-scan). b) Collection of signals across a distance along the surface. c) Color intensity plot of (b) (B-scan)." /><figcaption aria-hidden="true"><span>Figure 1:</span> <strong>a) Single wave signal (A-scan). b) Collection of signals across a distance along the surface. c) Color intensity plot of (b) (B-scan).</strong></figcaption>
 </figure>
 </div>
-<h2 id="plan">Plan</h2>
 <div style="text-align: justify">
-The A-scan data is categorized into three classes based on the delamination conditions. Fast Fourier transform of the A-scans will be performed to obtain the peak frequency and peak width. These values will act as independent variables in the machine learning model to predict the delamination condition. The bridge health at each location where an A-scan is collected is categorized into three classes: Class 1 No delamination, Class 2 Delamination (above the top bar mat), and Class 3 Delamination (below the top bar mat). Around 10,000 labeled A-scans will be used to train the model and 3000 labeled A-scans will be utilized for validation. Later, the trained model will be tested on 3000 A-scans to predict the delamination condition. Finally, B-scans will be generated and deck conditions at different locations of the bridge will be predicted.
+Usually, the GPR is used to detect delamination defects in the pavements. Delamination defects can be under or over the rebars. It is very difficult to observe the defects which are under the rebars. Here, we analyzed a GPR data set that was prelabelled for three classes containing no defects and delamination over the rebars and under the rebars. Models like decision tree, random forest, regression, and convolutional neural networks were used to predict the classes based on the A-scans. The input of the model was either the raw scans, principal components, or the dominant frequency and amplitude in the FFT domain.
+</div>
+<h2 id="description-of-dataset">Description of Dataset</h2>
+<div style="text-align: justify">
+The data was obtained from https://commons.und.edu/data/19/ [1], which contains annotated dataset for the structural defects. Data is present in the. xlsx format. Each column in the dataset has an approximate length of 512, where the first column represents the time (ns), and the rest of the columns are all amplitudes of GPR signals. Hence, each raw signal (columns) is directly annotated to one of the three possible classes. In addition, other information like the scan length and the coordinates of each signal scan is also provided.
+</div>
+<div style="text-align: justify">
+The data set represents raw signals of Non-Destructive Evaluation (NDE) tests conducted by Ground Penetrating Radar (GPR) which were collected from in-service reinforced concrete bridge decks. The dataset was annotated using three classes by bridge deck repair: Class 1-No Delamination, Class 2-Delamination (delamination above top bar mat), and Class 3-Delamination (delamination below top bar mat).
 </div>
 <h2 class="page_break_before" id="exploratory-data-analysis">Exploratory Data Analysis</h2>
 <h3 id="preliminary-analysis">Preliminary Analysis</h3>
