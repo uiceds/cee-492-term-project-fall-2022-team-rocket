@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/892ee165b5748754eeee0c8e0c7c179d6b6de69f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/892ee165b5748754eeee0c8e0c7c179d6b6de69f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/892ee165b5748754eeee0c8e0c7c179d6b6de69f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8cbaaf724aea4a12b4ca1013e51417308e7a1112/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8cbaaf724aea4a12b4ca1013e51417308e7a1112/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8cbaaf724aea4a12b4ca1013e51417308e7a1112/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -309,12 +309,12 @@ Table 3 provides a accuracy/performance based summary of the effectiveness of ea
 
 
 <div style="text-align: center">**Table 3. Summary of results of predictive modeling**</div>
-| Models | Training data | Accuracy On Training data | Accuracy On Full dataset | Accuracy On Unseen data |
-|:-------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| Decision Tree | 60 % | 82 % | 67 % | 45 % |
-| Random Forest | 60 % | 76 % | 65 % | 49 % |
-| Regression | 60 % | 6.1 (MSE) | 6.2 (MSE) | 5.5 (MSE) |
-| 1-D CNN |	60% | 52 % | 51 % | 52 % |		
+| Models | Training data | Accuracy On Training data | Accuracy On Unseen data |
+|:-------------|:-------------:|:-------------:|:-------------:|
+| Decision Tree | 60 % | 82 % | 45 % |
+| Random Forest | 60 % | 76 % | 49 % |
+| Regression | 60 % | 6.1 (MSE)| 5.5 (MSE) |
+| 1-D CNN |	60% | 52 % |52 % |		
 
 ## References 
 
