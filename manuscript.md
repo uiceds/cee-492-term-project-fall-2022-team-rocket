@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f6ff394df9a82bb4e02b5f32b16ff084862d8397/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f6ff394df9a82bb4e02b5f32b16ff084862d8397/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/f6ff394df9a82bb4e02b5f32b16ff084862d8397/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/56c54c57fe9b4c83a8098f232686af6db7744f72/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/56c54c57fe9b4c83a8098f232686af6db7744f72/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/56c54c57fe9b4c83a8098f232686af6db7744f72/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -119,7 +119,7 @@ manubot-clear-requests-cache: false
 
 <div style="text-align: justify">Usually, the GPR is used to detect delamination defects in the pavements. Delamination defects can be under or over the rebars. It is very difficult to observe the defects which are under the rebars. Here, we analyzed a GPR data set that was prelabelled for three classes containing no defects and delamination over the rebars and under the rebars. Models like decision tree, random forest, regression, and convolutional neural networks were used to predict the classes based on the A-scans. The input of the model was either the raw scans, principal components, or the dominant frequency and amplitude in the FFT domain. </div>
 
-## Description of Dataset
+## Description of Dataset {.page_break_before}
 <div style="text-align: justify">The data was obtained from https://commons.und.edu/data/19/ [1], which contains annotated dataset for the structural defects. Data is present in the. xlsx format. Each column in the dataset has an approximate length of 512, where the first column represents the time (ns), and the rest of the columns are all amplitudes of GPR signals. Hence, each raw signal (columns) is directly annotated to one of the three possible classes. In addition, other information like the scan length and the coordinates of each signal scan is also provided. </div>
 
 <div style="text-align: justify">The data set represents raw signals of Non-Destructive Evaluation (NDE) tests conducted by Ground Penetrating Radar (GPR) which were collected from in-service reinforced concrete bridge decks. The dataset was annotated using three classes by bridge deck repair: Class 1-No Delamination, Class 2-Delamination (delamination above top bar mat), and Class 3-Delamination (delamination below top bar mat). </div>

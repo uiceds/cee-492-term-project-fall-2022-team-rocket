@@ -29,7 +29,7 @@ prelabelled
 radargram
 rebar
 rebars
-Regresion
+regresion
 Relu
 Scheers
 SDNET
