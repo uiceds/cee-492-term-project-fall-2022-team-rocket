@@ -119,11 +119,9 @@ content/04.PredicMod.md:48:Relu
 content/04.PredicMod.md:48:Tanh
 content/04.PredicMod.md:56:dataset
 content/04.PredicMod.md:57:dataset
-content/04.PredicMod.md:57:MSE
 content/04.PredicMod.md:57:predicitve
+content/04.PredicMod.md:57:predictiv
 content/04.PredicMod.md:57:Regresion
-content/04.PredicMod.md:65:MSE
-content/04.PredicMod.md:65:MSE
 content/05.References.md:3:Dataset
 content/05.References.md:3:Dorafshan
 content/05.References.md:3:Ichi

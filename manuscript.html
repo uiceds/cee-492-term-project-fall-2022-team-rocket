@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2c1dfd167a944fb77bb14fe6cc5b3d6f3d3e284d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2c1dfd167a944fb77bb14fe6cc5b3d6f3d3e284d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2c1dfd167a944fb77bb14fe6cc5b3d6f3d3e284d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/656f717c6c09b92c30e2c652bd30a76f50601a97/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/656f717c6c09b92c30e2c652bd30a76f50601a97/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/656f717c6c09b92c30e2c652bd30a76f50601a97/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -340,18 +340,18 @@ To avoid the problem of overfitting, we have also tried to apply the ‘Random F
 <p>• Portions of samples per tree = 0.6</p>
 <p>• Maximum tree depth = 17</p>
 <div style="text-align: justify">
-The accuracy obtained by the model using the numbers mentioned above was around 64 %. Values of these parameters were changed to default values (default of the package: DecisionTree.jl, and then the new model was generated and tested. With the default values, the achieved accuracy was around 66 %.
+The accuracy obtained by the model using the numbers mentioned above was around 64 %. Values of these parameters were changed to default values (default of the package: DecisionTree.jl), and then the new model was generated and tested. With the default values, the achieved accuracy was around 66 %.
 </div>
 <h3 id="regression">3. Regression</h3>
 <div style="text-align: justify">
 Regression is a method for creating a model of the relationship between one or more independent variables and dependent variables, where variation in the dependent variables is used to explain variation in the dependent variables. The regression method prepared for this project considered a total of 260 independent variables and 1 dependent variable (classification). The regression model was optimized by minimizing a maximum square error function used a learning rate of 0.001 and 10,000 steps. 60% of the entire data set was used as training for the regression model.
 </div>
 <div style="text-align: justify">
-Ideally, regression model results should match actual observations. As observed in Figure 13, similar values were predicted for the three observed classes, which enables this system alone to accurately classify the predictions. This finding confirms that the regression model is not an adequate tool for a classification model.
+Ideally, regression model results should match actual observations. As observed in Figure 13(a), similar values were predicted for the three observed classes, which enables this system alone to accurately classify the predictions. These findings, plus observations from the confusion matrix in Figure 13(b), confirm that the regression model is inadequate for a classification model.
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/205178479-b7f8ad08-cb11-4435-bb7c-1e333290d4eb.png" style="height:2in" alt="Figure 13: Class Predictions vs Actual Classes, from regresion-based machine learning model" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>Class Predictions vs Actual Classes, from regresion-based machine learning model</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/205181215-1af2882f-8278-46cc-84db-4a39f64a9e0a.png" style="height:2in" alt="Figure 13: (a) Class Predictions vs Actual Classes, from regresion-based machine learning model. (b)Confusion matrix for the regression-based model" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>(a) Class Predictions vs Actual Classes, from regresion-based machine learning model. (b)Confusion matrix for the regression-based model</strong></figcaption>
 </figure>
 </div>
 <h3 id="convolutional-neural-network">4. Convolutional Neural Network</h3>
@@ -359,7 +359,7 @@ Ideally, regression model results should match actual observations. As observed 
 The Convolutional Neural Network (CNN) was created for the GPR data at different locations. Out of the approximately 16000 signals, around 9800 random signals were used to train the model. Each signal has 260 data points. The 1D CNN is composed of several layers. The first layer was a convolution layer with a filter size = 5 with 1 input channel to 8 output channels of training data. The padding was of size= 2 and Relu was the activation function. The next layer was a Maxpool layer of size= 4. The third layer is another convolutional layer with a filter of a size = 5 and padding of size= 2 with 8 channels to 3 channels. The fourth layer with a Maxpool layer of size =5 and the fifth layer is a dense layer of size (39,3) based on the input size and the number of channels. Finally, a Softmax layer is applied to discriminate between different classes. The batch size was 10 and learning rate was 0.001.
 </div>
 <div style="text-align: justify">
-Figure 14 show some diagnostics of our model training, include loss and accuracy curves as a function of gradient descent step and a confusion matrix of the final results. The accuracy of 52% is achieved based on the convolutional neural network. As observed in the figure , the accuracy becomes constant after certain epochs and does not improve. The model was further executed for different channels as well as different activation functions like Relu, Tanh, and its combination. However, the output was close to 52% accuracy with no improvement. The rest 40% of the total data was tested based on the CNN model. The accuracy was again 52% and the correlation matrix for the testing data was similar to that of the correlation matrix for the training data(scales on the color bar are different as the number of datasets for training and testing data is different) Further modification and improvements in the CNN model are required.
+Figure 14 show some diagnostics of our model training, include loss and accuracy curves as a function of gradient descent step and a confusion matrix of the final results. The accuracy of 52% is achieved based on the convolutional neural network. As observed in the figure , the accuracy becomes constant after certain epochs and does not improve. The model was further executed for different channels as well as different activation functions like Relu, Tanh, and its combination. However, the output was close to 52% accuracy with no improvement. The rest 40% of the total data was tested based on the CNN model. The accuracy was again 52% and the correlation matrix for the testing data was similar to that of the correlation matrix for the training data(scales on the color bar are different as the number of datasets for training and testing data is different). Further modification and improvements in the CNN model are required.
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
@@ -369,7 +369,7 @@ Figure 14 show some diagnostics of our model training, include loss and accuracy
 <h3 id="discussions">Discussions</h3>
 <div style="text-align: justify">
 As mentioned, the data is classified into three (3) different labels/classes. However, the amount of data samples for the three classes is not the same. For example, class 3 represents only about 7.5% of the entire dataset, while class 1 is approximately 50%.
-Table 3 provides a accuracy/performance based summary of the effectiveness of each of the studied predicitve models.The accuracy of predictive models is linked to the sample size of each class. An imbalanced dataset may cause predictive models to be biased towards learning more about the dominant classes causing higher accuracy of prediction of these classes. Moreover further improvement in CNN model by optimizing the model parameters and layers is required. While Regresion model performance was measured in terms of MSE, which may not be comparable to other accuracy metrics. Decision Tree and Random Forest models provided relatively high accuracy levels on training data (above 75%), 1-D CNN model provided the highest accuracy on unseen data with 52%.
+Table 3 provides a accuracy/performance based summary of the effectiveness of each of the studied predicitve models.The accuracy of predictive models is linked to the sample size of each class. An imbalanced dataset may cause predictive models to be biased towards learning more about the dominant classes causing higher accuracy of prediction of these classes. Moreover further improvement in CNN model by optimizing the model parameters and layers is required. Regresion model showed the lowest accuracy from the predictiv Decision Tree and Random Forest models provided relatively high accuracy levels on training data (above 75%), 1-D CNN model provided the highest accuracy on unseen data with 52%.
 </div>
 <div style="text-align: center">
 <strong>Table 3. Summary of results of predictive modeling</strong>
@@ -399,8 +399,8 @@ Table 3 provides a accuracy/performance based summary of the effectiveness of ea
 <tr class="odd">
 <td style="text-align: left;">Regression</td>
 <td style="text-align: center;">60 %</td>
-<td style="text-align: center;">6.1 (MSE)</td>
-<td style="text-align: center;">5.5 (MSE)</td>
+<td style="text-align: center;">33 %</td>
+<td style="text-align: center;">34 %</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">1-D CNN</td>
