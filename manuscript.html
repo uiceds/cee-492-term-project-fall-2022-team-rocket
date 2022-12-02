@@ -8,7 +8,7 @@
   <meta name="author" content="Jesus Castro" />
   <meta name="author" content="Chirayu Kothari" />
   <meta name="author" content="Omar Abdelrahman" />
-  <meta name="dcterms.date" content="2022-12-01" />
+  <meta name="dcterms.date" content="2022-12-02" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning</title>
   <style>
@@ -50,8 +50,8 @@
   <meta name="citation_title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="og:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="twitter:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
-  <meta name="dc.date" content="2022-12-01" />
-  <meta name="citation_publication_date" content="2022-12-01" />
+  <meta name="dc.date" content="2022-12-02" />
+  <meta name="citation_publication_date" content="2022-12-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2544673b144963ff53dd71651ee2d14d8a97703a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2544673b144963ff53dd71651ee2d14d8a97703a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/2544673b144963ff53dd71651ee2d14d8a97703a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8a1e606c8e82263d5b217bb0b76824d1a22728cc/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8a1e606c8e82263d5b217bb0b76824d1a22728cc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8a1e606c8e82263d5b217bb0b76824d1a22728cc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -328,7 +328,7 @@ The summary of the results is shown in Table 3. The accuracy achieved on trainin
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973532/202886315-d628336a-e1a5-4879-831e-92af119b0257.png" style="height:2in" alt="Figure 12: Confusion matrix of the training data for the ‘Decision Tree’ model" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Confusion matrix of the training data for the ‘Decision Tree’ model</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973532/205183209-a444c484-02ac-4739-a821-239105f28faf.png" style="height:3in" alt="Figure 12: Confusion matrix for the ‘Decision Tree’ model" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Confusion matrix for the ‘Decision Tree’ model</strong></figcaption>
 </figure>
 </div>
 <h3 id="random-forest">2. Random Forest</h3>
@@ -340,18 +340,23 @@ To avoid the problem of overfitting, we have also tried to apply the ‘Random F
 <p>• Portions of samples per tree = 0.6</p>
 <p>• Maximum tree depth = 17</p>
 <div style="text-align: justify">
-The accuracy obtained by the model using the numbers mentioned above was around 64 %. Values of these parameters were changed to default values (default of the package: DecisionTree.jl), and then the new model was generated and tested. With the default values, the achieved accuracy was around 66 %.
+The accuracy obtained by the model using the numbers mentioned above was around 64 %. Values of these parameters were changed to default values (default of the package: DecisionTree.jl), and then the new model was generated and tested. With the default values, the achieved accuracy was around 66 %. The confusion matrices obtained from this model is shown in Figure 13.
+</div>
+<div id="fig:tall-image" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973532/205183301-d8f2f1d6-2fbd-4448-bcd5-3425bc479287.png" style="height:3in" alt="Figure 13: Confusion matrix for the ‘Random Forest’ model" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>Confusion matrix for the ‘Random Forest’ model</strong></figcaption>
+</figure>
 </div>
 <h3 id="regression">3. Regression</h3>
 <div style="text-align: justify">
 Regression is a method for creating a model of the relationship between one or more independent variables and dependent variables, where variation in the dependent variables is used to explain variation in the dependent variables. The regression method prepared for this project considered a total of 260 independent variables and 1 dependent variable (classification). The regression model was optimized by minimizing a maximum square error function used a learning rate of 0.001 and 10,000 steps. 60% of the entire data set was used as training for the regression model.
 </div>
 <div style="text-align: justify">
-Ideally, regression model results should match actual observations. As observed in Figure 13(a), similar values were predicted for the three observed classes, which enables this system alone to accurately classify the predictions. These findings, plus observations from the confusion matrix in Figure 13(b), confirm that the regression model is inadequate for a classification model.
+Ideally, regression model results should match actual observations. As observed in Figure 14(a), similar values were predicted for the three observed classes, which enables this system alone to accurately classify the predictions. These findings, plus observations from the confusion matrix in Figure 14(b), confirm that the regression model is inadequate for a classification model.
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973477/205181215-1af2882f-8278-46cc-84db-4a39f64a9e0a.png" style="height:2in" alt="Figure 13: (a) Class Predictions vs Actual Classes, from regresion-based machine learning model. (b)Confusion matrix for the regression-based model" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>(a) Class Predictions vs Actual Classes, from regresion-based machine learning model. (b)Confusion matrix for the regression-based model</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973477/205181215-1af2882f-8278-46cc-84db-4a39f64a9e0a.png" style="height:2in" alt="Figure 14: (a) Class Predictions vs Actual Classes, from regresion-based machine learning model. (b)Confusion matrix for the regression-based model" /><figcaption aria-hidden="true"><span>Figure 14:</span> <strong>(a) Class Predictions vs Actual Classes, from regresion-based machine learning model. (b)Confusion matrix for the regression-based model</strong></figcaption>
 </figure>
 </div>
 <h3 id="convolutional-neural-network">4. Convolutional Neural Network</h3>
@@ -359,11 +364,11 @@ Ideally, regression model results should match actual observations. As observed 
 The Convolutional Neural Network (CNN) was created for the GPR data at different locations. Out of the approximately 16000 signals, around 9800 random signals were used to train the model. Each signal has 260 data points. The 1D CNN is composed of several layers. The first layer was a convolution layer with a filter size = 5 with 1 input channel to 8 output channels of training data. The padding was of size= 2 and Relu was the activation function. The next layer was a Maxpool layer of size= 4. The third layer is another convolutional layer with a filter of a size = 5 and padding of size= 2 with 8 channels to 3 channels. The fourth layer with a Maxpool layer of size =5 and the fifth layer is a dense layer of size (39,3) based on the input size and the number of channels. Finally, a Softmax layer is applied to discriminate between different classes. The batch size was 10 and learning rate was 0.001.
 </div>
 <div style="text-align: justify">
-Figure 14 show some diagnostics of our model training, include loss and accuracy curves as a function of gradient descent step and a confusion matrix of the final results. The accuracy of 52% is achieved based on the convolutional neural network. As observed in the figure , the accuracy becomes constant after certain epochs and does not improve. The model was further executed for different channels as well as different activation functions like Relu, Tanh, and its combination. However, the output was close to 52% accuracy with no improvement. The rest 40% of the total data was tested based on the CNN model. The accuracy was again 52% and the correlation matrix for the testing data was similar to that of the correlation matrix for the training data(scales on the color bar are different as the number of datasets for training and testing data is different). Further modification and improvements in the CNN model are required.
+Figure 15 show some diagnostics of our model training, include loss and accuracy curves as a function of gradient descent step and a confusion matrix of the final results. The accuracy of 52% is achieved based on the convolutional neural network. As observed in the figure , the accuracy becomes constant after certain epochs and does not improve. The model was further executed for different channels as well as different activation functions like Relu, Tanh, and its combination. However, the output was close to 52% accuracy with no improvement. The rest 40% of the total data was tested based on the CNN model. The accuracy was again 52% and the correlation matrix for the testing data was similar to that of the correlation matrix for the training data(scales on the color bar are different as the number of datasets for training and testing data is different). Further modification and improvements in the CNN model are required.
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112449929/205139444-7675a88c-fd70-4d88-b84c-4310f9156efc.png" style="height:4in" alt="Figure 14: Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix for both the training data and the testing data" /><figcaption aria-hidden="true"><span>Figure 14:</span> <strong>Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix for both the training data and the testing data</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112449929/205139444-7675a88c-fd70-4d88-b84c-4310f9156efc.png" style="height:4in" alt="Figure 15: Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix for both the training data and the testing data" /><figcaption aria-hidden="true"><span>Figure 15:</span> <strong>Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix for both the training data and the testing data</strong></figcaption>
 </figure>
 </div>
 <h3 class="page_break_before" id="discussions">Discussions</h3>
@@ -410,8 +415,9 @@ As mentioned, the data is classified into three (3) different labels/classes. Ho
 </tbody>
 </table>
 <div style="text-align: justify">
-Based on the accuracy values of the models created in this study, we can tell that these models need to be improved to reach satisfactory predictions. One of the future recommendations to improve the accuracy of the models is to train the models on larger datasets. This can be done by using other datasets that were obtained by scans performed on other bridge decks in the same project. Training the models on larger datasets can possibly reduce the effect of overfitting and can make it perform better when tested on unseen data. Another strategy is to increase the number of parameters used in the model as independent variables, for example, using a higher number of PCA modes. An example of the first strategy was tried out on two of the models (decision tree and random forest). Details of these trials can be found in the supplementary documents.
+Based on the accuracy values of the models created in this study, we it can tell be concluded that these models need to be improved to reach satisfactory predictions. One of the future recommendations to improve the accuracy of the models is to train the models on larger datasets. This can be done by using other datasets that were obtained by scans performed on other bridge decks in the same project. Training the models on larger datasets can possibly reduce the effect of overfitting and can make it them perform better when tested on unseen data. Another strategy is to increase the number of parameters used in the model as independent variables, for example, using a higher number of PCA modes. An example of the first strategy was tried out on two of the models: (decision tree and random forest). Details of these trials can be found in the supplementary information section.
 </div>
+<h3 class="page_break_before" id="supplementary-information">Supplementary Information</h3>
 <strong><em>Modeling on a larger dataset:</em></strong>
 <div style="text-align: justify">
 As mentioned earlier, only one .xlsx file from the data source (that contains 16,383 A-scans) was used for all our analysis and predictive, and modeling. As an attempt to execute our same method on a larger dataset, we have used 30 files that had 218,626 A-scans to build a ‘Decision Tree’ and a ‘Random Forest’ model. Of the total A-scans, approximately 71 % are from class 1, 23 % from class 2, and 6 % from class 3. Instead of the previously used 12 features, 22 features were used now which include the first 20 PCA modes (covering 97 % variance), dominant FFT Frequency, and corresponding amplitude.
