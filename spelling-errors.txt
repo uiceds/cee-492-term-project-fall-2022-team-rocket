@@ -1,12 +1,12 @@
 Abdelrahman
 Aziz
 Chirayu
-convolutional
+Convolutional
 dataset
 datasets
 DecisionTree
 delaminated
-delamination
+Delamination
 Dorafshan
 FFT
 GPR
@@ -28,7 +28,6 @@ prelabelled
 radargram
 rebar
 rebars
-regresion
 Relu
 Scheers
 SDNET

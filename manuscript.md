@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8a1e606c8e82263d5b217bb0b76824d1a22728cc/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8a1e606c8e82263d5b217bb0b76824d1a22728cc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8a1e606c8e82263d5b217bb0b76824d1a22728cc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/61fe9022a13c604ed0e5ad78e46ad5904d170810/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/61fe9022a13c604ed0e5ad78e46ad5904d170810/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/61fe9022a13c604ed0e5ad78e46ad5904d170810/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -288,7 +288,7 @@ manubot-clear-requests-cache: false
 <div style="text-align: justify">Ideally, regression model results should match actual observations. As observed in Figure 14(a), similar values were predicted for the three observed classes, which enables this system alone to accurately classify the predictions. These findings, plus observations from the confusion matrix in Figure 14(b), confirm that the regression model is inadequate for a classification model.</div>
 
 ![
-**(a) Class Predictions vs Actual Classes, from regresion-based machine learning model. (b)Confusion matrix for the regression-based model**
+**(a) Class Predictions vs Actual Classes, from regression-based machine learning model. (b)Confusion matrix for the regression-based model**
 ](https://user-images.githubusercontent.com/112973477/205181215-1af2882f-8278-46cc-84db-4a39f64a9e0a.png "Tall image"){#fig:tall-image height=2in}
 
 
@@ -317,10 +317,25 @@ manubot-clear-requests-cache: false
 
 ### Supplementary Information {.page_break_before}
 ***Modeling on a larger dataset:***
-<div style="text-align: justify">As mentioned earlier, only one .xlsx file from the data source (that contains 16,383 A-scans) was used for all our analysis and predictive, and modeling. As an attempt to execute our same method on a larger dataset, we have used 30 files that had 218,626 A-scans to build a ‘Decision Tree’ and a ‘Random Forest’ model. Of the total A-scans, approximately 71 % are from class 1, 23 % from class 2, and 6 % from class 3. Instead of the previously used 12 features, 22 features were used now which include the first 20 PCA modes (covering 97 % variance), dominant FFT Frequency, and corresponding amplitude.</div>
+<div style="text-align: justify">As mentioned earlier, only one dataset file from the data source [1] (that contains 16,383 A-scans) was used for all our analysis and predictive modeling. As a part of further analysis, we used 30 dataset files that had 218,626 A-scans to build a ‘Decision Tree’ and a ‘Random Forest’ model. Of the total A-scans, approximately 71 % are from class 1, 23 % from class 2, and 6 % from class 3. Instead of the previously used 12 features, 22 features were used which include the first 20 PCA modes (covering 97 % variance), dominant FFT Frequency, and corresponding amplitude.  </div>
 
-<div style="text-align: justify">The default values of settings of the ‘Decision Tree’ package were used for modeling. The results are shown in Table 1, figure 1, and figure 2. It can be observed that both the models overfit the training data and the models have lower accuracy on the unseen data. However, the ‘Random Forest’ model performs better on the test data. The dataset is highly dominated by the class-1 (>70 %) data for which the models tend to be biased towards class-1. Similarly, the number of class 3 data is very small (5.6 %) for which the error in predicting unseen class 3 signals is very high.</div>
+<div style="text-align: justify">The default values of settings of the ‘Decision Tree’ package were used for modeling. The results are shown in Table 4, Figure 16, and Figure 17. It can be observed that both the models overfit the training data and the models have lower accuracy on the unseen data. However, the ‘Random Forest’ model performs better on the test data. The dataset is highly dominated by the class-1 (>70 %) data for which the models tend to be biased towards class-1. Similarly, the number of class 3 data is very small (5.6 %) for which the error in predicting unseen class 3 signals is very high.  </div>
 
+<div style="text-align: center">**Table 4. Results of the predictive modeling on a larger dataset**</div>
+| Models  | Accuracy on Training data | Accuracy On Test/Unseen data |
+|:-------------|:-------------:|:-------------:|
+| Decision Tree | 100 % | 58.2 % |
+| Random Forest | 94.7 % | 71.3 % |
+
+
+![
+**Normalized confusion matrix for the ‘Decision Tree’ model on the larger dataset**
+](https://user-images.githubusercontent.com/112973615/205187507-a28bd541-5ae2-4c51-a2b1-0224d181e5a8.png "Tall image"){#fig:tall-image height=3in}
+
+
+![
+**Normalized confusion matrix for the ‘Random Forest’ model on the larger dataset**
+](https://user-images.githubusercontent.com/112973615/205187584-2588aad5-0c0b-43cc-ae7a-d38781a8d7e1.png "Tall image"){#fig:tall-image height=3in}
 
 ## References 
 

@@ -104,7 +104,6 @@ content/04.PredicMod.md:22:dataset
 content/04.PredicMod.md:22:overfitting
 content/04.PredicMod.md:32:DecisionTree
 content/04.PredicMod.md:32:jl
-content/04.PredicMod.md:44:regresion
 content/04.PredicMod.md:48:Convolutional
 content/04.PredicMod.md:49:convolutional
 content/04.PredicMod.md:49:Convolutional
@@ -126,11 +125,14 @@ content/05.Discussion.md:12:overfitting
 content/05.Discussion.md:12:PCA
 content/05.Discussion.md:15:dataset
 content/05.Discussion.md:16:dataset
+content/05.Discussion.md:16:dataset
 content/05.Discussion.md:16:FFT
 content/05.Discussion.md:16:PCA
-content/05.Discussion.md:16:xlsx
 content/05.Discussion.md:18:dataset
 content/05.Discussion.md:18:overfit
+content/05.Discussion.md:20:dataset
+content/05.Discussion.md:28:dataset
+content/05.Discussion.md:33:dataset
 content/06.References.md:3:Dataset
 content/06.References.md:3:Dorafshan
 content/06.References.md:3:Ichi
