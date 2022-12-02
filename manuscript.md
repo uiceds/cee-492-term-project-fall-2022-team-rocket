@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/cb459d2e5825258c14b44af3ad1542b7501c5144/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/cb459d2e5825258c14b44af3ad1542b7501c5144/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/cb459d2e5825258c14b44af3ad1542b7501c5144/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/003d5437ca9ba62eb91989e9837917d666e2defc/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/003d5437ca9ba62eb91989e9837917d666e2defc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/003d5437ca9ba62eb91989e9837917d666e2defc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -319,7 +319,7 @@ manubot-clear-requests-cache: false
 ***Modeling on a larger dataset:***
 <div style="text-align: justify">As mentioned earlier, only one dataset file from the data source [1] (that contains 16,383 A-scans) was used for all our analysis and predictive modeling. As a part of further analysis, we used 30 dataset files that had 218,626 A-scans to build a ‘Decision Tree’ and a ‘Random Forest’ model. Of the total A-scans, approximately 71 % are from class 1, 23 % from class 2, and 6 % from class 3. Instead of the previously used 12 features, 22 features were used which include the first 20 PCA modes (covering 97 % variance), dominant FFT Frequency, and corresponding amplitude.  </div>
 
-<div style="text-align: justify">The default values of settings of the ‘Decision Tree’ package were used for modeling. The results are shown in Table 4, Figure 16, and Figure 17. It can be observed that both the models overfit the training data and the models have lower accuracy on the unseen data. However, the ‘Random Forest’ model performs better on the test data. The dataset is highly dominated by the class-1 (>70 %) data for which the models tend to be biased towards class-1. Similarly, the number of class 3 data is very small (5.6 %) for which the error in predicting unseen class 3 signals is very high.  </div>
+<div style="text-align: justify">The default values of settings of the ‘Decision Tree’ package were used for modeling. The results are shown in Table 4, Figure 16, and Figure 17. It can be observed that both the models overfit the training data and the models have lower accuracy on the unseen data. However, the ‘Random Forest’ model performs better on the test data. The dataset is highly dominated by the class-1 (>70 %) data for which the models tend to be biased towards class-1. Similarly, the number of class 3 data is very small (5.6 %) for which the error in predicting unseen class 3 signals is very high.</div>
 
 <div style="text-align: center">**Table 4. Results of the predictive modeling on a larger dataset**</div>
 | Models  | Accuracy on Training data | Accuracy On Test/Unseen data |
