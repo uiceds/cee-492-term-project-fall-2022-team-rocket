@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e707c8f44863552a032d1acec461b6379155630d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e707c8f44863552a032d1acec461b6379155630d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e707c8f44863552a032d1acec461b6379155630d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/cb459d2e5825258c14b44af3ad1542b7501c5144/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/cb459d2e5825258c14b44af3ad1542b7501c5144/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/cb459d2e5825258c14b44af3ad1542b7501c5144/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -299,7 +299,7 @@ manubot-clear-requests-cache: false
 
 ![
 **Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix for both the training data and the testing data**
-](https://user-images.githubusercontent.com/112449929/205139444-7675a88c-fd70-4d88-b84c-4310f9156efc.png "Tall image"){#fig:tall-image height=4in}
+](https://user-images.githubusercontent.com/112449929/205192949-70666661-14fd-4b95-8744-3688eb1b2806.png "Tall image"){#fig:tall-image height=4in}
 
 
 ### Discussions {.page_break_before}
