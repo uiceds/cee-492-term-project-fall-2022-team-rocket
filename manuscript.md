@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/61fe9022a13c604ed0e5ad78e46ad5904d170810/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/61fe9022a13c604ed0e5ad78e46ad5904d170810/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/61fe9022a13c604ed0e5ad78e46ad5904d170810/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e707c8f44863552a032d1acec461b6379155630d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e707c8f44863552a032d1acec461b6379155630d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/e707c8f44863552a032d1acec461b6379155630d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -313,7 +313,7 @@ manubot-clear-requests-cache: false
 | Regression | 60 % | 33 % | 34 % |
 | 1-D CNN |	60% | 52 % |52 % |		
 
-<div style="text-align: justify">Based on the accuracy values of the models created in this study, we it can tell be concluded that these models need to be improved to reach satisfactory predictions. One of the future recommendations to improve the accuracy of the models is to train the models on larger datasets. This can be done by using other datasets that were obtained by scans performed on other bridge decks in the same project. Training the models on larger datasets can possibly reduce the effect of overfitting and can make it them perform better when tested on unseen data. Another strategy is to increase the number of parameters used in the model as independent variables, for example, using a higher number of PCA modes. An example of the first strategy was tried out on two of the models:  (decision tree and random forest). Details of these trials can be found in the supplementary information section. </div>
+<div style="text-align: justify">Based on the accuracy values of the models created in this study, it can be concluded that these models need to be improved to reach satisfactory predictions. One of the future recommendations to improve the accuracy of the models is to train the models on larger datasets. This can be done by using other datasets that were obtained by scans performed on other bridge decks in the same project. Training the models on larger datasets can possibly reduce the effect of overfitting and can make them perform better when tested on unseen data. Another strategy is to increase the number of parameters used in the model as independent variables, for example, using a higher number of PCA modes. An example of the first strategy was tried out on two of the models: decision tree and random forest. Details of these trials can be found in the supplementary information section. </div>
 
 ### Supplementary Information {.page_break_before}
 ***Modeling on a larger dataset:***
