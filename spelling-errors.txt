@@ -6,7 +6,7 @@ dataset
 datasets
 DecisionTree
 delaminated
-delamination
+Delamination
 Dorafshan
 FFT
 GPR

@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6dadda45f83b62a5cac91eece5a35d806331ce12/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6dadda45f83b62a5cac91eece5a35d806331ce12/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6dadda45f83b62a5cac91eece5a35d806331ce12/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b5a1f227aefc2189ffa54a1105ef1d4be2f89249/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b5a1f227aefc2189ffa54a1105ef1d4be2f89249/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b5a1f227aefc2189ffa54a1105ef1d4be2f89249/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -159,7 +159,7 @@ manubot-clear-requests-cache: false
 
 ![
 **Randomly selected signals from each of the three classes**
-](https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png "Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973477/198888009-6b6bffa6-3a3a-412d-8b55-2a129d1115b6.png "Tall image"){#fig:tall-image height=2.5in}
 
 
 <div style="text-align: justify">Based on the reference paper used to obtain the data [1], the B-scan, a visual representation of a combination of individual scans stitched together, showed that the bottom rebar reflection was detected at around 7 ns. Thus, it was decided that the readings after around 8-ns would not be useful for our model, and the remaining 4 ns were removed. Also, it was observed that the initial reflection from the top surface of the concrete is detected around 2 ns, so the first 2 ns were also removed from our data. Sample scans from the resulting signal are shown in Figure 3.</div>
@@ -168,7 +168,7 @@ manubot-clear-requests-cache: false
 ![
 **Randomly selected signals from each class, showing only the data points between 2 and 8 ns.**
 ](https://user-images.githubusercontent.com/112973477/198888092-eba56164-5253-424a-b1bf-66a6aad0e06d.png
- "Tall image"){#fig:tall-image height=2in}
+ "Tall image"){#fig:tall-image height=2.5in}
 
 
 
@@ -178,7 +178,7 @@ manubot-clear-requests-cache: false
 ![
 **The mean of all signals for each class.**
 ](https://user-images.githubusercontent.com/112973477/198890014-03682ba5-2c91-4b70-a74a-ad6100371880.png
- "Tall image"){#fig:tall-image height=2in}
+ "Tall image"){#fig:tall-image height=2.5in}
 
 
 
@@ -196,18 +196,18 @@ manubot-clear-requests-cache: false
 
 ![
 **Amplitude vs Frequency Class 1 with no delamination**
-](https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png "Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973477/198796951-76d47c3a-a1fd-4806-930c-1861941641d2.png "Tall image"){#fig:tall-image height=2.5in}
 
 <div style="text-align: justify">In Figure 6, it is observed that in the sections where delamination was identified above the top rebar layer, the amplitude peaks were higher in magnitude than the observed peaks in the areas with non-delaminated sections at similar frequencies. On the other hand, the plot corresponding to the amplitudes of sections identified with delamination below the top rebar later (Figure 7.) displays amplitude peaks with magnitudes lower than in Figure 5 and Figure 6.</div>
 
 ![
 **Amplitude vs Frequency Class 2 with delamination above the rebar**
-](https://user-images.githubusercontent.com/112973477/198805626-7db1d0f0-c922-4421-bd7a-98ac69ab4543.png "Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973477/198805626-7db1d0f0-c922-4421-bd7a-98ac69ab4543.png "Tall image"){#fig:tall-image height=2.5in}
 
 
 ![
 **Amplitude vs Frequency Class 3 with delamination below the top rebar**
-](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Tall image"){#fig:tall-image height=2.5in}
 
 <div style="text-align: justify">From this data processing approach (FFT), a good differentiation from the three classes (beyond the observed magnitudes in amplitude at approximately 0.8 GHz) cannot be concluded. Furthermore, the maximum amplitude of the FFT data and the frequency corresponding to the maximum amplitude was plotted (Figure 8). It was observed that the maximum amplitude of most of Class 1 and Class 2 was similar. However, some of the FFT spectra in Class 2 had higher amplitude than that of Class 1. Also, some of the FFT spectra in Class 2 had amplitude close to the mean of Class 3. It can be attributed to the labeling of data. </div>
 
@@ -223,7 +223,7 @@ manubot-clear-requests-cache: false
 ![
 **Violin plot representing the variation in frequency at maximum FFT amplitude of the three classes.**
 ](https://user-images.githubusercontent.com/112973477/198889398-21f6da40-2975-4964-b01e-6223ac78a1ce.png
- "Tall image"){#fig:tall-image height=2in}
+ "Tall image"){#fig:tall-image height=2.5in}
 
 
 <div style="text-align: justify">It can be easier to separate Class 3 from Class 1 and Class 2 based on the FFT analysis. </div>
@@ -235,14 +235,14 @@ manubot-clear-requests-cache: false
 
 ![
 **The PCA data for all the datasets.**
-](https://user-images.githubusercontent.com/112973615/198893083-66b632bb-c221-4a99-9b82-824d0ea6b08f.png "Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973615/198893083-66b632bb-c221-4a99-9b82-824d0ea6b08f.png "Tall image"){#fig:tall-image height=2.5in}
 
 
 
 
 ![
 **PCA data of two different 1000 randomly selected points from each class.**
-](https://user-images.githubusercontent.com/112973477/198889098-bd49b954-add9-4b08-bf6d-740e00b753ae.png "Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973477/198889098-bd49b954-add9-4b08-bf6d-740e00b753ae.png "Tall image"){#fig:tall-image height=2.5in}
 
 
 ## Predictive Modeling {.page_break_before}
@@ -280,7 +280,7 @@ manubot-clear-requests-cache: false
 
 ![
 **Confusion matrix for the ‘Random Forest’ model**
-](https://user-images.githubusercontent.com/112973532/205183301-d8f2f1d6-2fbd-4448-bcd5-3425bc479287.png "Tall image"){#fig:tall-image height=3in}
+](https://user-images.githubusercontent.com/112973532/205183301-d8f2f1d6-2fbd-4448-bcd5-3425bc479287.png "Tall image"){#fig:tall-image height=2.5in}
 
 ### 3. Regression
 <div style="text-align: justify">Regression is a method for creating a model of the relationship between one or more independent variables and dependent variables, where variation in the dependent variables is used to explain variation in the dependent variables. The regression method prepared for this project considered a total of 260 independent variables and 1 dependent variable (classification). The regression model was optimized by minimizing a maximum square error function used a learning rate of 0.001 and 10,000 steps. 60% of the entire data set was used as training for the regression model.</div>
@@ -289,7 +289,7 @@ manubot-clear-requests-cache: false
 
 ![
 **(a) Class Predictions vs Actual Classes, from regression-based machine learning model. (b)Confusion matrix for the regression-based model**
-](https://user-images.githubusercontent.com/112973477/205181215-1af2882f-8278-46cc-84db-4a39f64a9e0a.png "Tall image"){#fig:tall-image height=2in}
+](https://user-images.githubusercontent.com/112973477/205181215-1af2882f-8278-46cc-84db-4a39f64a9e0a.png "Tall image"){#fig:tall-image height=2.5in}
 
 
 ### 4. Convolutional Neural Network
