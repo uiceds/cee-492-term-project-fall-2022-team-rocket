@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/90581f4655b889cb75fb7b2e0f60fcac08417377/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/90581f4655b889cb75fb7b2e0f60fcac08417377/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/90581f4655b889cb75fb7b2e0f60fcac08417377/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8d657a1eb4ca657653ef3d0fab655e687e3f1fa2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8d657a1eb4ca657653ef3d0fab655e687e3f1fa2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8d657a1eb4ca657653ef3d0fab655e687e3f1fa2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -207,7 +207,7 @@ manubot-clear-requests-cache: false
 
 ![
 **Amplitude vs Frequency Class 3 with delamination below the top rebar**
-](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Tall image"){#fig:tall-image height=2.5in}
+](https://user-images.githubusercontent.com/112973477/198806202-022ebb9c-4fc1-48c4-ba29-be7df7647d4f.png "Tall image"){#fig:tall-image height=2.3in}
 
 <div style="text-align: justify">From this data processing approach (FFT), a good differentiation from the three classes (beyond the observed magnitudes in amplitude at approximately 0.8 GHz) cannot be concluded. Furthermore, the maximum amplitude of the FFT data and the frequency corresponding to the maximum amplitude was plotted (Figure 8). It was observed that the maximum amplitude of most of Class 1 and Class 2 was similar. However, some of the FFT spectra in Class 2 had higher amplitude than that of Class 1. Also, some of the FFT spectra in Class 2 had amplitude close to the mean of Class 3. It can be attributed to the labeling of data. </div>
 

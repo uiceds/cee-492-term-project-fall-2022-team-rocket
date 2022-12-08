@@ -1,7 +1,7 @@
 Abdelrahman
 Aziz
 Chirayu
-convolutional
+Convolutional
 dataset
 datasets
 DecisionTree
