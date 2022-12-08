@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/a5e91659a856b573e220e25216d8530baf9a3ebf/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/a5e91659a856b573e220e25216d8530baf9a3ebf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/a5e91659a856b573e220e25216d8530baf9a3ebf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/c88f813c1c24813fa97dbfcdfdd75a40836fa2fb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/c88f813c1c24813fa97dbfcdfdd75a40836fa2fb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/c88f813c1c24813fa97dbfcdfdd75a40836fa2fb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -215,7 +215,7 @@ manubot-clear-requests-cache: false
 ![
 **Violin plots representing the variation in maximum FFT amplitude of the three classes.**
 ](https://user-images.githubusercontent.com/112973477/198889209-6eba3151-f991-4375-9624-e01f7215b095.png
- "Tall image"){#fig:tall-image height=2in}
+ "Tall image"){#fig:tall-image height=2.5in}
 
 
 <div style="text-align: justify">Similarly, the frequency at maximum amplitude was observed for the FFT spectra in the three classes (Figure 9). The mean frequency at maximum amplitude for class 3 was lower than that of class 2 and class 1. The Violin plot for class 1 and class 2 look similar. However, some of the FFT spectra in class 2 have a frequency at a maximum amplitude lower than that of class 1’s data. </div>
@@ -289,7 +289,7 @@ manubot-clear-requests-cache: false
 
 ![
 **(a) Class Predictions vs Actual Classes, from regression-based machine learning model. (b)Confusion matrix for the regression-based model**
-](https://user-images.githubusercontent.com/112973477/206545287-ef37f92c-f26c-4f7e-82e6-00f44620e15f.png "Tall image"){#fig:tall-image height=2.5in}
+](https://user-images.githubusercontent.com/112973477/206548629-2e155fa4-4263-4d68-b72c-6affa174dc9d.png "Tall image"){#fig:tall-image height=2.5in}
 
 
 ### 4. Convolutional Neural Network
