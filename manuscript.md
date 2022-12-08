@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/c88f813c1c24813fa97dbfcdfdd75a40836fa2fb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/c88f813c1c24813fa97dbfcdfdd75a40836fa2fb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/c88f813c1c24813fa97dbfcdfdd75a40836fa2fb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/135643f59d52ee32b92f4857685eb1cd65210dc1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/135643f59d52ee32b92f4857685eb1cd65210dc1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/135643f59d52ee32b92f4857685eb1cd65210dc1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,7 +235,7 @@ manubot-clear-requests-cache: false
 
 ![
 **The PCA data for all the datasets.**
-](https://user-images.githubusercontent.com/112973615/198893083-66b632bb-c221-4a99-9b82-824d0ea6b08f.png "Tall image"){#fig:tall-image height=2.5in}
+](https://user-images.githubusercontent.com/112973615/198893083-66b632bb-c221-4a99-9b82-824d0ea6b08f.png "Tall image"){#fig:tall-image height=2.3in}
 
 
 
