@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-02'
+date-meta: '2022-12-08'
 author-meta:
 - Ishfaq Aziz
 - Jesus Castro
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="og:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="twitter:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
-  <meta name="dc.date" content="2022-12-02" />
-  <meta name="citation_publication_date" content="2022-12-02" />
+  <meta name="dc.date" content="2022-12-08" />
+  <meta name="citation_publication_date" content="2022-12-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/003d5437ca9ba62eb91989e9837917d666e2defc/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/003d5437ca9ba62eb91989e9837917d666e2defc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/003d5437ca9ba62eb91989e9837917d666e2defc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6dadda45f83b62a5cac91eece5a35d806331ce12/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6dadda45f83b62a5cac91eece5a35d806331ce12/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/6dadda45f83b62a5cac91eece5a35d806331ce12/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -299,7 +299,7 @@ manubot-clear-requests-cache: false
 
 ![
 **Performance of the CNN model. It shows the loss and accuracy curves as a function of gradient descent step and a confusion matrix for both the training data and the testing data**
-](https://user-images.githubusercontent.com/112449929/205192949-70666661-14fd-4b95-8744-3688eb1b2806.png "Tall image"){#fig:tall-image height=4in}
+](https://user-images.githubusercontent.com/112449929/205192949-70666661-14fd-4b95-8744-3688eb1b2806.png "Tall image"){#fig:tall-image height=6in}
 
 
 ### Discussions {.page_break_before}
