@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b5a1f227aefc2189ffa54a1105ef1d4be2f89249/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b5a1f227aefc2189ffa54a1105ef1d4be2f89249/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/b5a1f227aefc2189ffa54a1105ef1d4be2f89249/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3d304657d6e572f56e6711a2b9663eb6444fc100/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3d304657d6e572f56e6711a2b9663eb6444fc100/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3d304657d6e572f56e6711a2b9663eb6444fc100/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -289,7 +289,7 @@ manubot-clear-requests-cache: false
 
 ![
 **(a) Class Predictions vs Actual Classes, from regression-based machine learning model. (b)Confusion matrix for the regression-based model**
-](https://user-images.githubusercontent.com/112973477/205181215-1af2882f-8278-46cc-84db-4a39f64a9e0a.png "Tall image"){#fig:tall-image height=2.5in}
+](https://user-images.githubusercontent.com/112973477/206545287-ef37f92c-f26c-4f7e-82e6-00f44620e15f.png "Tall image"){#fig:tall-image height=2.5in}
 
 
 ### 4. Convolutional Neural Network
