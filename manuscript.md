@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3d304657d6e572f56e6711a2b9663eb6444fc100/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3d304657d6e572f56e6711a2b9663eb6444fc100/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/3d304657d6e572f56e6711a2b9663eb6444fc100/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/a5e91659a856b573e220e25216d8530baf9a3ebf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/a5e91659a856b573e220e25216d8530baf9a3ebf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/a5e91659a856b573e220e25216d8530baf9a3ebf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -262,7 +262,7 @@ manubot-clear-requests-cache: false
 
 ![
 **Confusion matrix for the ‘Decision Tree’ model**
-](https://user-images.githubusercontent.com/112973532/205183209-a444c484-02ac-4739-a821-239105f28faf.png "Tall image"){#fig:tall-image height=3in}
+](https://user-images.githubusercontent.com/112973615/206547085-69987e21-d175-4c70-b1f5-b9563fbe271e.png "Tall image"){#fig:tall-image height=3in}
 
 
 ### 2. Random Forest
@@ -280,7 +280,7 @@ manubot-clear-requests-cache: false
 
 ![
 **Confusion matrix for the ‘Random Forest’ model**
-](https://user-images.githubusercontent.com/112973532/205183301-d8f2f1d6-2fbd-4448-bcd5-3425bc479287.png "Tall image"){#fig:tall-image height=2.5in}
+](https://user-images.githubusercontent.com/112973615/206547373-7c0b6336-280a-4d25-a35d-8e70c9d73dcd.png "Tall image"){#fig:tall-image height=2.5in}
 
 ### 3. Regression
 <div style="text-align: justify">Regression is a method for creating a model of the relationship between one or more independent variables and dependent variables, where variation in the dependent variables is used to explain variation in the dependent variables. The regression method prepared for this project considered a total of 260 independent variables and 1 dependent variable (classification). The regression model was optimized by minimizing a maximum square error function used a learning rate of 0.001 and 10,000 steps. 60% of the entire data set was used as training for the regression model.</div>
