@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-08'
+date-meta: '2022-12-09'
 author-meta:
 - Ishfaq Aziz
 - Jesus Castro
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="og:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
   <meta property="twitter:title" content="Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning" />
-  <meta name="dc.date" content="2022-12-08" />
-  <meta name="citation_publication_date" content="2022-12-08" />
+  <meta name="dc.date" content="2022-12-09" />
+  <meta name="citation_publication_date" content="2022-12-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8d657a1eb4ca657653ef3d0fab655e687e3f1fa2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8d657a1eb4ca657653ef3d0fab655e687e3f1fa2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/8d657a1eb4ca657653ef3d0fab655e687e3f1fa2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/67c5b76931d2a4951ed36117b1dc04291462092d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/67c5b76931d2a4951ed36117b1dc04291462092d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-team-rocket/v/67c5b76931d2a4951ed36117b1dc04291462092d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,7 +141,7 @@ manubot-clear-requests-cache: false
 |:-----------------|:-------------:|:-------------:|:-------------:|
 | No of scans | 8427 | 6812 | 1144 |
 | Meaning of each class | Sound Concrete | Concrete with delamination above top rebar | Concrete with delamination below top rebar |
-| Peak amplitude of mean signal | 10121 | 9813 | 9649 |
+| Peak amplitude of mean signal | 10121 | 9813 | 9649|
 
 
 <div style="text-align: center">**Table 2. Properties of the GPR scans**</div>
