@@ -1,26 +1,28 @@
----
-title: "Manuscript Title"
+title: "Predicting Delamination in Concrete Bridge Decks from Ground Penetrating Radar Signals using Machine Learning"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
-    affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+  - github: ishfaqa2
+    name: Ishfaq Aziz
+    initials: IA
+    orcid: 0000-0001-5723-0331
+    email: ishfaqa2@illinois.edu
+  - github: jcastr54
+    name: Jesus Castro
+    initials: JC
+    orcid: 0000-0002-7684-7422
+    email: jcastr54@illinois.edu
+  - github: ck0103
+    name: Chirayu Kothari
+    initials: CK
+    orcid: 0000-0003-4468-1138
+    email: chirayu4@illinois.edu
+  - github: oaa4
+    name: Omar Abdelrahman
+    initials: OA
+    orcid: 0000-0003-0618-8481
+    email: oaa4@illinois.edu
+    
